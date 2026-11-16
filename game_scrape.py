@@ -18,5 +18,19 @@ with open("game_data.json", "w") as f:
 with open("game_data.json", encoding="utf-8") as f:
     data = json.load(f)
     print("GAME_ID: " + data["gmStrp"]["gid"])
-    print('date' + data["gmSwtchrMta"]["firstPillOverride"]["date"])
+    print('date ' + data["gmSwtchrMta"]["firstPillOverride"]["date"])
     print(data["prsdTms"]["home"]["displayName"] + " VS " + data["prsdTms"]["away"]["displayName"])
+
+    # print all stats for quarterbacks (eventually add database code)
+    print(data["bxscr"][0]["stats"][0]["athlts"][0]["athlt"]["dspNm"])
+    # prints out sam darnold.
+
+    for team in data["bxscr"]:
+        print('\n\n', team["tm"]["dspNm"], '\n\n')
+        for stat_catagories in team["stats"]:
+            s = stat_catagories["keys"]
+            for players in stat_catagories["athlts"]:
+                p = players["stats"]
+                statsheet = list(zip(s,p))
+                print(players["athlt"]["dspNm"], end=':     ')
+                print(statsheet)
