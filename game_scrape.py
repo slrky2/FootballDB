@@ -20,6 +20,9 @@ cursor.execute("""
     )
 """)
 
+
+
+
 def loadPlayerFromHtml(html):
     match = marker.search(html)
     if match is None:
@@ -54,29 +57,33 @@ with open("game_data.json", encoding="utf-8") as f:
     connection = sqlite3.connect("football.db")
     cursor = connection.cursor()
 
+    numStats = 0
+
     for team in data["bxscr"]:
         print('\n\n', team["tm"]["dspNm"], '\n\n')
         for stat_catagories in team["stats"]:
             s = stat_catagories["keys"]
+            
+            numStats += 1
+            print(s, ':  ', numStats)
             for players in stat_catagories["athlts"]:
                 p = players["stats"]
                 statsheet = list(zip(s,p))
-                print(players["athlt"]["dspNm"], end=':     ')
-                
+                # print(players["athlt"]["dspNm"], end=':     ')
                 player_id = (players["athlt"]["id"])
                 name = players["athlt"]["dspNm"] 
                 
-                playerUrl = f"https://www.espn.com/nfl/player/_/id/{player_id}"
-                playerHtml = requests.get(playerUrl, headers={"User-Agent": "Mozilla/5.0"}, timeout=10).text
+                # playerUrl = f"https://www.espn.com/nfl/player/_/id/{player_id}"
+                # playerHtml = requests.get(playerUrl, headers={"User-Agent": "Mozilla/5.0"}, timeout=10).text
                 
                 # pItem = loadPlayerFromHtml(playerHtml)
                 # with open(f"{name}_data.json", "w") as f:
                 #     json.dump(pItem, f)
         
-                playerItem = loadPlayerFromHtml(playerHtml)
-                cursor.execute(
-                    "INSERT INTO players(id, name, position, team, age) VALUES (?, ?, ?, ?, ?)",
-                    (player_id, name, playerItem["plyrHdr"]["ath"]["posAbv"], playerItem["plyrHdr"]["ath"]["tm"], playerItem["plyrHdr"]["ath"]["dob"]),
-                )
+                # playerItem = loadPlayerFromHtml(playerHtml)
+                # cursor.execute(
+                #     "INSERT INTO players(id, name, position, team, age) VALUES (?, ?, ?, ?, ?)",
+                #     (player_id, name, playerItem["plyrHdr"]["ath"]["posAbv"], playerItem["plyrHdr"]["ath"]["tm"], playerItem["plyrHdr"]["ath"]["dob"]),
+                # )
                 # print(statsheet)
                 connection.commit()
