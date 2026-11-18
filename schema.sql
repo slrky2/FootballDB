@@ -2,7 +2,7 @@
 -- Enable PRAGMA foreign_keys = ON on every connection before starting a transaction.
 
 CREATE TABLE IF NOT EXISTS players (
-    player_id INTEGER PRIMARY KEY,
+    playerID INTEGER PRIMARY KEY,
     name TEXT,
     position TEXT,
     team TEXT,
@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS players (
 );
 
 CREATE TABLE IF NOT EXISTS passing (
-    playerID INTEGER PRIMARY KEY REFERENCES players(player_id),
+    playerID INTEGER PRIMARY KEY REFERENCES players(playerID),
     completions INTEGER,
     pAttempts INTEGER,
     pYards INTEGER,
@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS passing (
 );
 
 CREATE TABLE IF NOT EXISTS rushing (
-    playerID INTEGER PRIMARY KEY REFERENCES players(player_id),
+    playerID INTEGER PRIMARY KEY REFERENCES players(playerID),
     rAttempts INTEGER,
     rYards INTEGER,
     YPRA REAL,
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS rushing (
 );
 
 CREATE TABLE IF NOT EXISTS receiving (
-    playerID INTEGER PRIMARY KEY REFERENCES players(player_id),
+    playerID INTEGER PRIMARY KEY REFERENCES players(playerID),
     receptions INTEGER,
     receivingYards INTEGER,
     yardsPerReception REAL,
@@ -43,14 +43,14 @@ CREATE TABLE IF NOT EXISTS receiving (
 );
 
 CREATE TABLE IF NOT EXISTS fumbles (
-    playerID INTEGER PRIMARY KEY REFERENCES players(player_id),
+    playerID INTEGER PRIMARY KEY REFERENCES players(playerID),
     fumbles INTEGER,
     fumblesLost INTEGER,
     fumblesRecovered INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS defense (
-    playerID INTEGER PRIMARY KEY REFERENCES players(player_id),
+    playerID INTEGER PRIMARY KEY REFERENCES players(playerID),
     totalTackles INTEGER,
     soloTackles INTEGER,
     sacks REAL,
@@ -61,14 +61,14 @@ CREATE TABLE IF NOT EXISTS defense (
 );
 
 CREATE TABLE IF NOT EXISTS defensive_interceptions (
-    playerID INTEGER PRIMARY KEY REFERENCES players(player_id),
+    playerID INTEGER PRIMARY KEY REFERENCES players(playerID),
     interceptions INTEGER,
     interceptionYards INTEGER,
     interceptionTouchdowns INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS kick_returns (
-    playerID INTEGER PRIMARY KEY REFERENCES players(player_id),
+    playerID INTEGER PRIMARY KEY REFERENCES players(playerID),
     kickReturns INTEGER,
     kickReturnYards INTEGER,
     yardsPerKickReturn REAL,
@@ -77,7 +77,7 @@ CREATE TABLE IF NOT EXISTS kick_returns (
 );
 
 CREATE TABLE IF NOT EXISTS punt_returns (
-    playerID INTEGER PRIMARY KEY REFERENCES players(player_id),
+    playerID INTEGER PRIMARY KEY REFERENCES players(playerID),
     puntReturns INTEGER,
     puntReturnYards INTEGER,
     yardsPerPuntReturn REAL,
@@ -86,7 +86,7 @@ CREATE TABLE IF NOT EXISTS punt_returns (
 );
 
 CREATE TABLE IF NOT EXISTS kicking (
-    playerID INTEGER PRIMARY KEY REFERENCES players(player_id),
+    playerID INTEGER PRIMARY KEY REFERENCES players(playerID),
     fieldGoalsMade INTEGER,
     fieldGoalAttempts INTEGER,
     fieldGoalPct REAL,
@@ -97,7 +97,7 @@ CREATE TABLE IF NOT EXISTS kicking (
 );
 
 CREATE TABLE IF NOT EXISTS punting (
-    playerID INTEGER PRIMARY KEY REFERENCES players(player_id),
+    playerID INTEGER PRIMARY KEY REFERENCES players(playerID),
     punts INTEGER,
     puntYards INTEGER,
     grossAvgPuntYards REAL,
