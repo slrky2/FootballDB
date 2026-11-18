@@ -1,0 +1,2851 @@
+{
+    "playerId": "3912547",
+    "guid": "938f19a1-ef9b-618c-2365-d55291e0fcc6",
+    "sport": "football",
+    "medialst": {
+        "vids": [
+            {
+                "ad": {
+                    "sport": "nfl",
+                    "bundle": "nfl_studio_analysis"
+                },
+                "cerebroId": "6af33890f141af2171a1574a",
+                "id": "50442817",
+                "description": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations",
+                "duration": "2:03",
+                "imgSrc": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/ss_20261110_103026147_3735288/ss_20261110_103026147_3735288_default.jpg",
+                "imgSrcWidth": 576,
+                "imgSrcHeight": 324,
+                "imgSrcFull": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/ss_20261110_103026147_3735288/ss_20261110_103026147_3735288.jpg",
+                "lang": "en",
+                "expirationDate": "2026-12-30T18:00:00.000+00:00",
+                "lastModified": "2026-11-10T15:37:36.000+00:00",
+                "publishDate": "2026-11-10T15:30:25.000+00:00",
+                "source": "espn",
+                "title": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations",
+                "headline": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations",
+                "syndicatable": true,
+                "videoSrc": {
+                    "defaultSrc": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1110/ss_20261110_103026147_3735288/ss_20261110_103026147_3735288.mp4",
+                    "webSrc": "https://www.espn.com/video/clip/_/id/50442817/stephen-holds-kevin-oconnell-responsible-justin-jefferson-frustrations"
+                },
+                "track": {
+                    "coverageType": "Analysis",
+                    "leagueName": "NFL",
+                    "sportName": "football",
+                    "trackId": "dm_NFL_stephen_a_holds_kevin_oconnell_responsible_for_justin_jeffersons_frustrations",
+                    "trackName": "COM_NFL Analysis (Stephen A. holds Kevin O\u2019Connell responsible for Justin Jefferson\u2019s frustrations) 2026/11/10 FT"
+                }
+            },
+            {
+                "ad": {
+                    "sport": "nfl",
+                    "bundle": "nfl_studio_analysis"
+                },
+                "cerebroId": "6acb8252e63fd6586c5935e6",
+                "id": "50156254",
+                "description": "Sam Darnold embracing newfound stability in Seattle and life",
+                "duration": "2:49",
+                "imgSrc": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1011/dm_261011_NFL_Sam_Darnold_feature/dm_261011_NFL_Sam_Darnold_feature_default.jpg",
+                "imgSrcWidth": 576,
+                "imgSrcHeight": 324,
+                "imgSrcFull": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1011/dm_261011_NFL_Sam_Darnold_feature/dm_261011_NFL_Sam_Darnold_feature.jpg",
+                "lang": "en",
+                "expirationDate": "2027-10-13T12:26:16.000+00:00",
+                "lastModified": "2026-10-11T16:47:53.000+00:00",
+                "publishDate": "2026-10-11T12:34:26.000+00:00",
+                "source": "espn",
+                "title": "Sam Darnold embracing newfound stability in Seattle and life",
+                "headline": "Sam Darnold embracing newfound stability in Seattle and life",
+                "syndicatable": true,
+                "videoSrc": {
+                    "defaultSrc": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1011/dm_261011_NFL_Sam_Darnold_feature/dm_261011_NFL_Sam_Darnold_feature.mp4",
+                    "webSrc": "https://www.espn.com/video/clip/_/id/50156254/sam-darnold-embracing-newfound-stability-seattle-life"
+                },
+                "track": {
+                    "coverageType": "Feature",
+                    "leagueName": "NFL",
+                    "sportName": "football",
+                    "trackId": "dm_261011_NFL_Sam_Darnold_feature",
+                    "trackName": "COM_NFL Feature (Sam Darnold embracing newfound stability in Seattle and life) 2026/10/11 SNCD"
+                }
+            },
+            {
+                "ad": {
+                    "sport": "Other",
+                    "bundle": "sportscenter"
+                },
+                "cerebroId": "69d6dbb12c591a46e125c5a3",
+                "id": "48433266",
+                "description": "Fresh off a Super Bowl, could Sam Darnold getting married mean more success on the field?",
+                "duration": "0:44",
+                "imgSrc": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0408/dm_260408_darnold_16x9/dm_260408_darnold_16x9_default.jpg",
+                "imgSrcWidth": 576,
+                "imgSrcHeight": 324,
+                "imgSrcFull": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/0408/dm_260408_darnold_16x9/dm_260408_darnold_16x9.jpg",
+                "lang": "en",
+                "expirationDate": "2026-12-31T17:00:00.000+00:00",
+                "lastModified": "2026-04-08T22:50:41.000+00:00",
+                "publishDate": "2026-04-08T22:50:25.000+00:00",
+                "source": "espn",
+                "title": "Is Sam Darnold heading for another ring?",
+                "headline": "Is Sam Darnold heading for another ring?",
+                "syndicatable": true,
+                "videoSrc": {
+                    "defaultSrc": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/0408/dm_260408_darnold_16x9/dm_260408_darnold_16x9.mp4",
+                    "webSrc": "https://www.espn.com/video/clip?id=48433266"
+                },
+                "track": {
+                    "coverageType": "Analysis",
+                    "leagueName": "NFL",
+                    "sportName": "football",
+                    "trackId": "dm_260408_darnold_16x9",
+                    "trackName": "COM_NFL Analysis (Is Sam Darnold heading for another ring?) 2026/4/8"
+                }
+            }
+        ]
+    },
+    "plyrState": {
+        "isFA": false,
+        "isInact": false,
+        "isOutSsn": false,
+        "isPre": false,
+        "isDef": false
+    },
+    "plyrSwtch": {
+        "prm": {
+            "id": "3912547",
+            "sport": "football",
+            "pageType": "player",
+            "rawPageType": "overview",
+            "subPageType": null,
+            "league": "nfl",
+            "adobePassV2": true
+        },
+        "cur": {
+            "id": "3912547",
+            "uid": "s:20~l:28~a:3912547",
+            "dspNum": "14",
+            "name": "Sam Darnold",
+            "desc": "#14",
+            "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3912547.png",
+            "team": "26",
+            "tmClr": "002a5c",
+            "txtClr": "ffffff",
+            "position": "8",
+            "href": "/nfl/player/_/id/3912547/sam-darnold"
+        },
+        "ftr": [
+            {
+                "fld": "team",
+                "lbl": "Team",
+                "opt": [
+                    {
+                        "id": "22",
+                        "name": "Arizona Cardinals"
+                    },
+                    {
+                        "id": "1",
+                        "name": "Atlanta Falcons"
+                    },
+                    {
+                        "id": "33",
+                        "name": "Baltimore Ravens"
+                    },
+                    {
+                        "id": "2",
+                        "name": "Buffalo Bills"
+                    },
+                    {
+                        "id": "29",
+                        "name": "Carolina Panthers"
+                    },
+                    {
+                        "id": "3",
+                        "name": "Chicago Bears"
+                    },
+                    {
+                        "id": "4",
+                        "name": "Cincinnati Bengals"
+                    },
+                    {
+                        "id": "5",
+                        "name": "Cleveland Browns"
+                    },
+                    {
+                        "id": "6",
+                        "name": "Dallas Cowboys"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Denver Broncos"
+                    },
+                    {
+                        "id": "8",
+                        "name": "Detroit Lions"
+                    },
+                    {
+                        "id": "9",
+                        "name": "Green Bay Packers"
+                    },
+                    {
+                        "id": "34",
+                        "name": "Houston Texans"
+                    },
+                    {
+                        "id": "11",
+                        "name": "Indianapolis Colts"
+                    },
+                    {
+                        "id": "30",
+                        "name": "Jacksonville Jaguars"
+                    },
+                    {
+                        "id": "12",
+                        "name": "Kansas City Chiefs"
+                    },
+                    {
+                        "id": "13",
+                        "name": "Las Vegas Raiders"
+                    },
+                    {
+                        "id": "24",
+                        "name": "Los Angeles Chargers"
+                    },
+                    {
+                        "id": "14",
+                        "name": "Los Angeles Rams"
+                    },
+                    {
+                        "id": "15",
+                        "name": "Miami Dolphins"
+                    },
+                    {
+                        "id": "16",
+                        "name": "Minnesota Vikings"
+                    },
+                    {
+                        "id": "17",
+                        "name": "New England Patriots"
+                    },
+                    {
+                        "id": "18",
+                        "name": "New Orleans Saints"
+                    },
+                    {
+                        "id": "19",
+                        "name": "New York Giants"
+                    },
+                    {
+                        "id": "20",
+                        "name": "New York Jets"
+                    },
+                    {
+                        "id": "21",
+                        "name": "Philadelphia Eagles"
+                    },
+                    {
+                        "id": "23",
+                        "name": "Pittsburgh Steelers"
+                    },
+                    {
+                        "id": "25",
+                        "name": "San Francisco 49ers"
+                    },
+                    {
+                        "id": "26",
+                        "name": "Seattle Seahawks"
+                    },
+                    {
+                        "id": "27",
+                        "name": "Tampa Bay Buccaneers"
+                    },
+                    {
+                        "id": "10",
+                        "name": "Tennessee Titans"
+                    },
+                    {
+                        "id": "28",
+                        "name": "Washington Commanders"
+                    }
+                ],
+                "cmp": false
+            },
+            {
+                "fld": "position",
+                "lbl": "Position",
+                "opt": [
+                    {
+                        "id": "8",
+                        "name": "Quarterback"
+                    },
+                    {
+                        "id": "1",
+                        "name": "Wide Receiver"
+                    },
+                    {
+                        "id": "9",
+                        "name": "Running Back"
+                    },
+                    {
+                        "id": "7",
+                        "name": "Tight End"
+                    },
+                    {
+                        "id": "22",
+                        "name": "Place Kicker"
+                    },
+                    {
+                        "id": "23",
+                        "name": "Punter"
+                    },
+                    {
+                        "id": "35",
+                        "name": "Defensive Back"
+                    },
+                    {
+                        "id": "30",
+                        "name": "Linebacker"
+                    },
+                    {
+                        "id": "37",
+                        "name": "Defensive Lineman"
+                    },
+                    {
+                        "id": "45",
+                        "name": "Offensive Lineman"
+                    },
+                    {
+                        "id": "72",
+                        "name": "Special Teams"
+                    }
+                ],
+                "cmp": false
+            }
+        ],
+        "sel": {
+            "team": "26",
+            "position": "8"
+        },
+        "lng": "en",
+        "rgn": "us",
+        "lst": [
+            {
+                "id": "3912547",
+                "uid": "s:20~l:28~a:3912547",
+                "dspNum": "14",
+                "name": "Sam Darnold",
+                "desc": "#14",
+                "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3912547.png",
+                "team": "26",
+                "tmClr": "002a5c",
+                "txtClr": "ffffff",
+                "position": "8",
+                "href": "/nfl/player/_/id/3912547/sam-darnold"
+            },
+            {
+                "id": "3924327",
+                "uid": "s:20~l:28~a:3924327",
+                "dspNum": "2",
+                "name": "Drew Lock",
+                "desc": "#2",
+                "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3924327.png",
+                "team": "26",
+                "tmClr": "002a5c",
+                "txtClr": "ffffff",
+                "position": "8",
+                "href": "/nfl/player/_/id/3924327/drew-lock"
+            },
+            {
+                "id": "4361182",
+                "uid": "s:20~l:28~a:4361182",
+                "name": "Adrian Martinez",
+                "desc": "",
+                "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361182.png",
+                "team": "26",
+                "tmClr": "002a5c",
+                "txtClr": "ffffff",
+                "position": "8",
+                "href": "/nfl/player/_/id/4361182/adrian-martinez"
+            },
+            {
+                "id": "4432734",
+                "uid": "s:20~l:28~a:4432734",
+                "dspNum": "6",
+                "name": "Jalen Milroe",
+                "desc": "#6",
+                "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4432734.png",
+                "team": "26",
+                "tmClr": "002a5c",
+                "txtClr": "ffffff",
+                "position": "8",
+                "href": "/nfl/player/_/id/4432734/jalen-milroe"
+            }
+        ],
+        "lnk": "/nfl/team/roster/_/name/sea/seattle-seahawks",
+        "lg": "nfl"
+    },
+    "qcklnks": [
+        {
+            "links": [
+                {
+                    "extrnl": false,
+                    "href": "/nfl/team/stats/_/name/sea/seattle-seahawks",
+                    "icon": "stats",
+                    "img": false,
+                    "title": "Stats"
+                },
+                {
+                    "extrnl": false,
+                    "href": "/nfl/team/schedule/_/name/sea/seattle-seahawks",
+                    "icon": "calendar",
+                    "img": false,
+                    "title": "Schedule"
+                },
+                {
+                    "extrnl": false,
+                    "href": "/nfl/team/depth/_/name/sea/seattle-seahawks",
+                    "icon": "list__stars_solid",
+                    "img": false,
+                    "title": "Depth Chart"
+                }
+            ],
+            "title": "Seahawks Quick Links"
+        },
+        {
+            "links": [
+                {
+                    "extrnl": false,
+                    "href": "/nfl/scoreboard",
+                    "icon": "scores__outline",
+                    "img": false,
+                    "title": "Scores"
+                },
+                {
+                    "extrnl": false,
+                    "href": "/nfl/standings",
+                    "icon": "list__ordered_solid",
+                    "img": false,
+                    "title": "Standings"
+                },
+                {
+                    "extrnl": false,
+                    "href": "/nfl/schedule",
+                    "icon": "calendar",
+                    "img": false,
+                    "title": "Schedule"
+                }
+            ],
+            "title": "NFL Quick Links"
+        }
+    ],
+    "stndngs": [
+        {
+            "dspNm": "2026 NFC West Standings",
+            "feed": [
+                {
+                    "entries": [
+                        {
+                            "team": {
+                                "id": "25",
+                                "displayName": "San Francisco",
+                                "shortDisplayName": "San Francisco",
+                                "uid": "s:20~l:28~t:25",
+                                "recordSummary": "",
+                                "standingSummary": "",
+                                "links": "/nfl/team/_/name/sf/san-francisco-49ers"
+                            },
+                            "stats": [
+                                "+85",
+                                "-",
+                                "1",
+                                "1",
+                                "+85",
+                                "196",
+                                "281",
+                                "W2",
+                                "0",
+                                ".889",
+                                "8",
+                                "0",
+                                "3-0",
+                                "0.000",
+                                "3.000",
+                                "0",
+                                "8-1",
+                                "5-0",
+                                "3-1",
+                                "3-0",
+                                "5-1"
+                            ]
+                        },
+                        {
+                            "team": {
+                                "id": "26",
+                                "displayName": "Seattle",
+                                "shortDisplayName": "Seattle",
+                                "uid": "s:20~l:28~t:26",
+                                "recordSummary": "",
+                                "standingSummary": "",
+                                "links": "/nfl/team/_/name/sea/seattle-seahawks"
+                            },
+                            "stats": [
+                                "+48",
+                                "2.5",
+                                "4",
+                                "8",
+                                "+48",
+                                "175",
+                                "223",
+                                "W2",
+                                "0",
+                                ".600",
+                                "6",
+                                "1",
+                                "2-1",
+                                "0.000",
+                                "2.000",
+                                "0",
+                                "6-4",
+                                "4-2",
+                                "2-2",
+                                "2-1",
+                                "2-3"
+                            ]
+                        },
+                        {
+                            "team": {
+                                "id": "14",
+                                "displayName": "LA Rams",
+                                "shortDisplayName": "LA Rams",
+                                "uid": "s:20~l:28~t:14",
+                                "recordSummary": "",
+                                "standingSummary": "",
+                                "links": "/nfl/team/_/name/lar/los-angeles-rams"
+                            },
+                            "stats": [
+                                "+61",
+                                "2.5",
+                                "4",
+                                "9",
+                                "+61",
+                                "187",
+                                "248",
+                                "W4",
+                                "0",
+                                ".600",
+                                "6",
+                                "2",
+                                "1-2",
+                                "0.000",
+                                "1.000",
+                                "0",
+                                "6-4",
+                                "2-3",
+                                "4-1",
+                                "1-2",
+                                "4-2"
+                            ]
+                        },
+                        {
+                            "team": {
+                                "id": "22",
+                                "displayName": "Arizona",
+                                "shortDisplayName": "Arizona",
+                                "uid": "s:20~l:28~t:22",
+                                "recordSummary": "",
+                                "standingSummary": "",
+                                "links": "/nfl/team/_/name/ari/arizona-cardinals"
+                            },
+                            "stats": [
+                                "-105",
+                                "5.5",
+                                "7",
+                                "15",
+                                "-105",
+                                "289",
+                                "184",
+                                "L2",
+                                "0",
+                                ".300",
+                                "3",
+                                "4",
+                                "1-4",
+                                "0.000",
+                                "1.000",
+                                "0",
+                                "3-7",
+                                "0-4",
+                                "3-3",
+                                "1-4",
+                                "2-6"
+                            ]
+                        }
+                    ],
+                    "statMap": {
+                        "differential": {
+                            "t": "differential",
+                            "d": "Point Differential",
+                            "a": "DIFF",
+                            "i": 0
+                        },
+                        "gamesbehind": {
+                            "t": "gamesbehind",
+                            "d": "Games Back",
+                            "a": "GB",
+                            "i": 1
+                        },
+                        "losses": {
+                            "t": "losses",
+                            "d": "Losses",
+                            "a": "L",
+                            "i": 2
+                        },
+                        "playoffseed": {
+                            "t": "playoffseed",
+                            "d": "Playoff Seed",
+                            "a": "POS",
+                            "i": 3
+                        },
+                        "pointdifferential": {
+                            "t": "pointdifferential",
+                            "d": "Point Differential",
+                            "a": "DIFF",
+                            "i": 4
+                        },
+                        "pointsagainst": {
+                            "t": "pointsagainst",
+                            "d": "Total Points Against",
+                            "a": "PA",
+                            "i": 5
+                        },
+                        "pointsfor": {
+                            "t": "pointsfor",
+                            "d": "Total Points For",
+                            "a": "PF",
+                            "i": 6
+                        },
+                        "streak": {
+                            "t": "streak",
+                            "d": "Current Streak",
+                            "a": "STRK",
+                            "i": 7
+                        },
+                        "ties": {
+                            "t": "ties",
+                            "d": "Ties",
+                            "a": "T",
+                            "i": 8
+                        },
+                        "winpercent": {
+                            "t": "winpercent",
+                            "d": "Winning Percentage",
+                            "a": "PCT",
+                            "i": 9
+                        },
+                        "wins": {
+                            "t": "wins",
+                            "d": "Wins",
+                            "a": "W",
+                            "i": 10
+                        },
+                        "divisionlosses": {
+                            "t": "divisionlosses",
+                            "d": "Division Losses",
+                            "a": "DL",
+                            "i": 11
+                        },
+                        "divisionrecord": {
+                            "t": "divisionrecord",
+                            "d": "Division Record",
+                            "a": "DIV",
+                            "i": 12
+                        },
+                        "divisionties": {
+                            "t": "divisionties",
+                            "d": "Division Tie ",
+                            "a": "DT",
+                            "i": 13
+                        },
+                        "divisionwins": {
+                            "t": "divisionwins",
+                            "d": "Division Winning ",
+                            "a": "DW",
+                            "i": 14
+                        },
+                        "lockeddivrank": {
+                            "t": "lockeddivrank",
+                            "d": "Locked Div Rank",
+                            "a": "LDR",
+                            "i": 15
+                        },
+                        "total": {
+                            "t": "total",
+                            "a": "Any",
+                            "i": 16
+                        },
+                        "home": {
+                            "t": "home",
+                            "d": "Home Record",
+                            "a": "HOME",
+                            "i": 17
+                        },
+                        "road": {
+                            "t": "road",
+                            "d": "Away Record",
+                            "a": "AWAY",
+                            "i": 18
+                        },
+                        "vsdiv": {
+                            "t": "vsdiv",
+                            "d": "Division Record",
+                            "a": "DIV",
+                            "i": 19
+                        },
+                        "vsconf": {
+                            "t": "vsconf",
+                            "d": "Conference Record",
+                            "a": "CONF",
+                            "i": 20
+                        }
+                    }
+                }
+            ],
+            "tmFeat": [
+                "26"
+            ]
+        }
+    ],
+    "tix": {
+        "feed": [
+            {
+                "name": "All NFL Tickets",
+                "link": "https://www.vividseats.com/nfl/?wsUser=717"
+            },
+            {
+                "name": "11/29 @ 49ers 4,614 tickets left",
+                "link": "https://www.vividseats.com/san-francisco-49ers-tickets-santa-clara-levis-stadium-3-3-2027/production/6495879?wsUser=717"
+            },
+            {
+                "name": "12/7 vs Cowboys 2,094 tickets left",
+                "link": "https://www.vividseats.com/seattle-seahawks-tickets-seattle-lumen-field-3-4-2027/production/6492969?wsUser=717"
+            },
+            {
+                "name": "12/13 vs Giants 2,529 tickets left",
+                "link": "https://www.vividseats.com/seattle-seahawks-tickets-seattle-lumen-field-3-5-2027/production/6492971?wsUser=717"
+            },
+            {
+                "name": "12/19 @ Eagles 4,120 tickets left",
+                "link": "https://www.vividseats.com/philadelphia-eagles-tickets-philadelphia-lincoln-financial-field-3-5-2027/production/6494988?wsUser=717"
+            },
+            {
+                "name": "12/25 vs Rams 4,175 tickets left",
+                "link": "https://www.vividseats.com/seattle-seahawks-tickets-seattle-lumen-field-3-2-2027/production/6492955?wsUser=717"
+            },
+            {
+                "name": "1/3 @ Panthers 5,166 tickets left",
+                "link": "https://www.vividseats.com/carolina-panthers-tickets-charlotte-bank-of-america-stadium-3-8-2026/production/6488727?wsUser=717"
+            },
+            {
+                "name": "1/3 @ Panthers 5,340 tickets left",
+                "link": "https://www.vividseats.com/pittsburgh-steelers-tickets-pittsburgh-acrisure-stadium-3-5-2027/production/6495149?wsUser=717"
+            },
+            {
+                "name": "1/10 @ Rams 6,415 tickets left",
+                "link": "https://www.vividseats.com/los-angeles-rams-tickets-inglewood-sofi-stadium-3-1-2026/production/6491548?wsUser=717"
+            }
+        ],
+        "seats": {
+            "opponentTeamName": "49ers",
+            "currentTeamName": "Seahawks",
+            "venueName": "Levi's Stadium",
+            "summary": "Tickets as low as $260",
+            "date": "2026-11-29T21:25:00.000+00:00",
+            "dateShort": "11/29",
+            "dateDay": "Sun",
+            "homeAway": "away",
+            "eventLink": "https://www.vividseats.com/san-francisco-49ers-tickets-santa-clara-levis-stadium-3-3-2027/production/6495879?wsUser=717",
+            "venueLink": "https://www.vividseats.com/levis-stadium-tickets/venue/11464?wsUser=717",
+            "genericLink": "https://www.vividseats.com?wsUser=717",
+            "teamLink": "https://www.vividseats.com/seattle-seahawks-tickets--sports-nfl-football/performer/772?wsUser=717",
+            "neutralSite": false,
+            "timeValid": true
+        },
+        "links": {
+            "event": "https://www.vividseats.com/san-francisco-49ers-tickets-santa-clara-levis-stadium-3-3-2027/production/6495879?wsUser=717&wsVar=us~nfl~player,en",
+            "generic": "https://www.vividseats.com?wsUser=717&wsVar=us~nfl~player,en",
+            "team": "https://www.vividseats.com/seattle-seahawks-tickets--sports-nfl-football/performer/772?wsUser=717&wsVar=us~nfl~player,en",
+            "venue": "https://www.vividseats.com/levis-stadium-tickets/venue/11464?wsUser=717&wsVar=us~nfl~player,en"
+        }
+    },
+    "baseURL": "https://www.espn.com",
+    "prtlCmnApiRsp": {
+        "athlete": {
+            "age": 29,
+            "college": {
+                "id": "30",
+                "name": "USC",
+                "displayName": "USC Trojans"
+            },
+            "collegeTeam": {
+                "links": [
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/college-football/team/_/id/30/usc-trojans",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "clubhouse",
+                            "mobile",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/college-football/team/_/id/30/usc-trojans",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/college-football/team/roster/_/id/30",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "roster",
+                            "sportscenter",
+                            "app",
+                            "team"
+                        ],
+                        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:30&section=roster",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/college-football/team/stats/_/id/30",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "stats",
+                            "sportscenter",
+                            "app",
+                            "team"
+                        ],
+                        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:30&section=stats",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/college-football/team/schedule/_/id/30",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "schedule",
+                            "sportscenter",
+                            "app",
+                            "team"
+                        ],
+                        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:30&section=scores",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/usc-trojans-football-tickets--sports-ncaa-football/performer/1031?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "awards",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/college-football/awards/_/team/30",
+                        "text": "Awards",
+                        "shortText": "Awards",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ],
+                "uid": "s:20~l:23~t:30"
+            },
+            "collegeAthlete": {
+                "id": "3912547"
+            },
+            "displayBirthPlace": "Capistrano Beach, CA",
+            "displayDOB": "6/5/1997",
+            "displayDraft": "2018: Rd 1, Pk 3 (NYJ)",
+            "displayExperience": "9th Season",
+            "displayHeight": "6' 3\"",
+            "displayWeight": "225 lbs",
+            "guid": "938f19a1-ef9b-618c-2365-d55291e0fcc6",
+            "id": "3912547",
+            "injuries": [
+                {
+                    "longComment": "Darnold, who last played in Week 8, still is working his way through a pair of injuries, but barring any setbacks, he's trending toward a Week 12 return. Macdonald reiterated that Darnold will be the team's starter once healthy, even though backup Drew Lock has guided Seattle to a 4-0 record while coming on in relief or starting in place of an injured Darnold in the first two games of the season as well as the most recent two contests.",
+                    "shortComment": "Head coach Mike Macdonald said Monday that he's \"really optimistic\" Darnold (quadriceps/ribs) will be able to get a full week's worth of practice coming out of the Seahawks' Week 11 bye and start their next game Sunday, Nov. 29, against the 49ers, John Boyle of the team's official site reports.",
+                    "status": "Out",
+                    "date": "2026-11-16T18:03:00.000+00:00",
+                    "type": {
+                        "id": "4",
+                        "name": "INJURY_STATUS_OUT",
+                        "description": "out",
+                        "abbreviation": "O"
+                    },
+                    "details": {
+                        "fantasyStatus": {
+                            "description": "QUESTIONABLE",
+                            "abbreviation": "QUESTIONABLE"
+                        },
+                        "type": "Quadriceps",
+                        "location": "Leg",
+                        "detail": "Not Specified",
+                        "side": "Not Specified",
+                        "returnDate": "2026-11-29T00:00:00.000+00:00"
+                    }
+                }
+            ],
+            "league": {},
+            "playerId": "3912547",
+            "position": {
+                "displayName": "Quarterback"
+            },
+            "sport": "football",
+            "status": {
+                "id": "1",
+                "name": "Active",
+                "type": "active",
+                "abbreviation": "Active"
+            },
+            "team": {
+                "id": "26",
+                "uid": "s:20~l:28~t:26",
+                "abbrev": "SEA",
+                "displayName": "Seattle Seahawks",
+                "links": [
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "clubhouse",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+                        "text": "Clubhouse",
+                        "shortText": "Clubhouse",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "roster",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/roster/_/name/sea/seattle-seahawks",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "roster",
+                            "sportscenter",
+                            "app",
+                            "team"
+                        ],
+                        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:28~t:26&section=roster",
+                        "text": "Roster",
+                        "shortText": "Roster",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "stats",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/stats/_/name/sea/seattle-seahawks",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "stats",
+                            "sportscenter",
+                            "app",
+                            "team"
+                        ],
+                        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:28~t:26&section=stats",
+                        "text": "Statistics",
+                        "shortText": "Statistics",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "schedule",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/schedule/_/name/sea",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "schedule",
+                            "sportscenter",
+                            "app",
+                            "team"
+                        ],
+                        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:28~t:26&section=scores",
+                        "text": "Schedule",
+                        "shortText": "Schedule",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "photos",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/photos/_/name/sea",
+                        "text": "photos",
+                        "shortText": "photos",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "tickets",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.vividseats.com/seattle-seahawks-tickets--sports-nfl-football/performer/772?wsUser=717",
+                        "text": "Tickets",
+                        "shortText": "Tickets",
+                        "isExternal": true,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "draftpicks",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/draft/teams/_/name/sea/seattle-seahawks",
+                        "text": "Draft Picks",
+                        "shortText": "Draft Picks",
+                        "isExternal": false,
+                        "isPremium": true
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "transactions",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/transactions/_/name/sea",
+                        "text": "Transactions",
+                        "shortText": "Transactions",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "injuries",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/injuries/_/name/sea",
+                        "text": "Injuries",
+                        "shortText": "Injuries",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "depthchart",
+                            "desktop",
+                            "team"
+                        ],
+                        "href": "https://www.espn.com/nfl/team/depth/_/name/sea",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    },
+                    {
+                        "language": "en-US",
+                        "rel": [
+                            "depthchart",
+                            "sportscenter",
+                            "app",
+                            "team"
+                        ],
+                        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:28~t:26&section=depthchart",
+                        "text": "Depth Chart",
+                        "shortText": "Depth Chart",
+                        "isExternal": false,
+                        "isPremium": false
+                    }
+                ]
+            },
+            "uid": "s:20~l:28~a:3912547",
+            "debutYear": 2018
+        },
+        "links": [
+            {
+                "language": "en-US",
+                "rel": [
+                    "overview",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/_/id/3912547/sam-darnold",
+                "text": "Overview",
+                "shortText": "Overview",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "news",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/news/_/id/3912547/sam-darnold",
+                "text": "News",
+                "shortText": "News",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "stats",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/stats/_/id/3912547/sam-darnold",
+                "text": "Stats",
+                "shortText": "Stats",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "bio",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/bio/_/id/3912547/sam-darnold",
+                "text": "Bio",
+                "shortText": "Bio",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "splits",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/splits/_/id/3912547/sam-darnold",
+                "text": "Splits",
+                "shortText": "Splits",
+                "isExternal": false,
+                "isPremium": false
+            },
+            {
+                "language": "en-US",
+                "rel": [
+                    "gamelog",
+                    "desktop",
+                    "athlete"
+                ],
+                "href": "https://www.espn.com/nfl/player/gamelog/_/id/3912547/sam-darnold",
+                "text": "Game Log",
+                "shortText": "Game Log",
+                "isExternal": false,
+                "isPremium": false
+            }
+        ],
+        "season": {
+            "type": {
+                "type": 2
+            },
+            "year": "2026"
+        }
+    },
+    "plyrHdr": {
+        "ath": {
+            "col": "USC",
+            "colLnk": "https://www.espn.com/college-football/team/_/id/30/usc-trojans",
+            "colUid": "s:20~l:23~t:30",
+            "debutYr": 2018,
+            "dob": "6/5/1997 (29)",
+            "drft": "2018: Rd 1, Pk 3 (NYJ)",
+            "brthpl": "Capistrano Beach, CA",
+            "pos": "Quarterback",
+            "sts": "QUESTIONABLE",
+            "stsid": "injury-4",
+            "tmLnk": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+            "tmUid": "s:20~l:28~t:26",
+            "dobRaw": "6/5/1997",
+            "exp": "9th Season",
+            "htOnly": "6' 3\"",
+            "htwt": "6' 3\", 225 lbs",
+            "tm": "Seattle Seahawks",
+            "tmsh": false,
+            "fNm": "Sam",
+            "lNm": "Darnold",
+            "dspNm": "Sam Darnold",
+            "colUID": "s:20~l:23~t:30",
+            "tmUID": "s:20~l:28~t:26",
+            "img": "https://a.espncdn.com/i/headshots/nfl/players/full/3912547.png",
+            "posAbv": "QB",
+            "hsSmLg": true,
+            "flImg": false,
+            "tmSh": "Seahawks",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+            "tmCl": "002a5c",
+            "dspNum": "#14",
+            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sea.png"
+        },
+        "statsBlck": {
+            "hdr": "2026 regular season stats",
+            "vals": [
+                {
+                    "name": "Passing Yards",
+                    "lbl": "YDS",
+                    "val": "1,478",
+                    "pos": "26th"
+                },
+                {
+                    "name": "Passing Touchdowns",
+                    "lbl": "TD",
+                    "val": "10",
+                    "pos": "Tied-18th"
+                },
+                {
+                    "name": "Interceptions",
+                    "lbl": "INT",
+                    "val": "9",
+                    "pos": "Tied-26th"
+                },
+                {
+                    "name": "Adjusted QBR",
+                    "lbl": "QBR",
+                    "val": "48.6",
+                    "pos": "24th"
+                }
+            ]
+        }
+    },
+    "links": [
+        {
+            "language": "en-US",
+            "rel": [
+                "overview",
+                "desktop",
+                "athlete"
+            ],
+            "href": "https://www.espn.com/nfl/player/_/id/3912547/sam-darnold",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+        },
+        {
+            "language": "en-US",
+            "rel": [
+                "news",
+                "desktop",
+                "athlete"
+            ],
+            "href": "https://www.espn.com/nfl/player/news/_/id/3912547/sam-darnold",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+        },
+        {
+            "language": "en-US",
+            "rel": [
+                "stats",
+                "desktop",
+                "athlete"
+            ],
+            "href": "https://www.espn.com/nfl/player/stats/_/id/3912547/sam-darnold",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+        },
+        {
+            "language": "en-US",
+            "rel": [
+                "bio",
+                "desktop",
+                "athlete"
+            ],
+            "href": "https://www.espn.com/nfl/player/bio/_/id/3912547/sam-darnold",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+        },
+        {
+            "language": "en-US",
+            "rel": [
+                "splits",
+                "desktop",
+                "athlete"
+            ],
+            "href": "https://www.espn.com/nfl/player/splits/_/id/3912547/sam-darnold",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+        },
+        {
+            "language": "en-US",
+            "rel": [
+                "gamelog",
+                "desktop",
+                "athlete"
+            ],
+            "href": "https://www.espn.com/nfl/player/gamelog/_/id/3912547/sam-darnold",
+            "text": "Game Log",
+            "shortText": "Game Log",
+            "isExternal": false,
+            "isPremium": false
+        }
+    ],
+    "ppLinks": {
+        "links": [
+            {
+                "l": {
+                    "h": "/nfl/player/_/id/3912547/sam-darnold",
+                    "e": false,
+                    "p": false,
+                    "m": {
+                        "h": "/nfl/player/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "Overview"
+                    },
+                    "t": "Overview",
+                    "w": {
+                        "h": "/nfl/player/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "Overview"
+                    }
+                }
+            },
+            {
+                "l": {
+                    "h": "/nfl/player/news/_/id/3912547/sam-darnold",
+                    "e": false,
+                    "p": false,
+                    "m": {
+                        "h": "/nfl/player/news/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "News"
+                    },
+                    "t": "News",
+                    "w": {
+                        "h": "/nfl/player/news/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "News"
+                    }
+                }
+            },
+            {
+                "l": {
+                    "h": "/nfl/player/stats/_/id/3912547/sam-darnold",
+                    "e": false,
+                    "p": false,
+                    "m": {
+                        "h": "/nfl/player/stats/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "Stats"
+                    },
+                    "t": "Stats",
+                    "w": {
+                        "h": "/nfl/player/stats/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "Stats"
+                    }
+                }
+            },
+            {
+                "l": {
+                    "h": "/nfl/player/bio/_/id/3912547/sam-darnold",
+                    "e": false,
+                    "p": false,
+                    "m": {
+                        "h": "/nfl/player/bio/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "Bio"
+                    },
+                    "t": "Bio",
+                    "w": {
+                        "h": "/nfl/player/bio/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "Bio"
+                    }
+                }
+            },
+            {
+                "l": {
+                    "h": "/nfl/player/splits/_/id/3912547/sam-darnold",
+                    "e": false,
+                    "p": false,
+                    "m": {
+                        "h": "/nfl/player/splits/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "Splits"
+                    },
+                    "t": "Splits",
+                    "w": {
+                        "h": "/nfl/player/splits/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "Splits"
+                    }
+                }
+            },
+            {
+                "l": {
+                    "h": "/nfl/player/gamelog/_/id/3912547/sam-darnold",
+                    "e": false,
+                    "p": false,
+                    "m": {
+                        "h": "/nfl/player/gamelog/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "Game Log"
+                    },
+                    "t": "Game Log",
+                    "w": {
+                        "h": "/nfl/player/gamelog/_/id/3912547/sam-darnold",
+                        "e": false,
+                        "p": false,
+                        "t": "Game Log"
+                    }
+                }
+            }
+        ],
+        "activePage": {
+            "device": "desktop",
+            "league": "nfl",
+            "pageType": "player",
+            "subPageType": null
+        }
+    },
+    "isClubhouseHeaderV2": false,
+    "nws": {
+        "items": [
+            {
+                "id": 50504531,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50504531/seahawks-macdonald-optimisitic-qb-darnold-plays-bye-week",
+                "headline": "Seahawks' Macdonald 'optimistic' QB Darnold returns after bye week",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "url": "https://a.espncdn.com/photo/2026/1103/r1740370_1296x518_5-2.jpg",
+                    "name": "Sam Darnold IA [1296x518]",
+                    "caption": "Quarterback Sam Darnold struggled against the Bears defense in Seattle's Monday night loss."
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-11-16T21:17:12.000+00:00",
+                "byline": "Brady Henderson",
+                "authors": [
+                    {
+                        "displayName": "Brady Henderson",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/henderson_brady.png",
+                        "contributorLink": false
+                    }
+                ]
+            },
+            {
+                "id": 50475505,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50475505/seahawks-raiders-week-10-darnold-lock-shaheed-returns",
+                "headline": "As QB Sam Darnold progresses toward a return, two other Seahawks are back vs. Raiders",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "url": "https://a.espncdn.com/photo/2026/1113/r1745471_1296x518_5-2.jpg",
+                    "name": "Drew Lock [1296x518]"
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-11-14T04:01:15.000+00:00",
+                "byline": "Brady Henderson",
+                "authors": [
+                    {
+                        "displayName": "Brady Henderson",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/henderson_brady.png",
+                        "contributorLink": false
+                    }
+                ]
+            },
+            {
+                "id": 50442817,
+                "type": "Media",
+                "link": "/video/clip/_/id/50442817/stephen-holds-kevin-oconnell-responsible-justin-jefferson-frustrations",
+                "headline": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations",
+                "image": {
+                    "width": 576,
+                    "height": 324,
+                    "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/ss_20261110_103026147_3735288/ss_20261110_103026147_3735288.jpg",
+                    "name": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations",
+                    "caption": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations"
+                },
+                "description": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations",
+                "isPremium": false,
+                "published": "2026-11-10T15:37:36.000+00:00",
+                "byline": "",
+                "authors": [],
+                "video": {
+                    "ad": {
+                        "sport": "nfl",
+                        "bundle": "nfl_studio_analysis"
+                    },
+                    "cerebroId": "6af33890f141af2171a1574a",
+                    "id": "50442817",
+                    "description": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations",
+                    "duration": "2:03",
+                    "imgSrc": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/ss_20261110_103026147_3735288/ss_20261110_103026147_3735288_default.jpg",
+                    "imgSrcWidth": 576,
+                    "imgSrcHeight": 324,
+                    "imgSrcFull": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1110/ss_20261110_103026147_3735288/ss_20261110_103026147_3735288.jpg",
+                    "lang": "en",
+                    "expirationDate": "2026-12-30T18:00:00.000+00:00",
+                    "lastModified": "2026-11-10T15:37:36.000+00:00",
+                    "publishDate": "2026-11-10T15:30:25.000+00:00",
+                    "source": "espn",
+                    "title": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations",
+                    "headline": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations",
+                    "syndicatable": true,
+                    "caption": "Stephen A. holds Kevin O'Connell responsible for Justin Jefferson's frustrations",
+                    "videoSrc": {
+                        "defaultSrc": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2026/1110/ss_20261110_103026147_3735288/ss_20261110_103026147_3735288.mp4",
+                        "webSrc": "https://www.espn.com/video/clip/_/id/50442817/stephen-holds-kevin-oconnell-responsible-justin-jefferson-frustrations"
+                    },
+                    "track": {
+                        "coverageType": "Analysis",
+                        "leagueName": "NFL",
+                        "sportName": "football",
+                        "trackId": "dm_NFL_stephen_a_holds_kevin_oconnell_responsible_for_justin_jeffersons_frustrations",
+                        "trackName": "COM_NFL Analysis (Stephen A. holds Kevin O\u2019Connell responsible for Justin Jefferson\u2019s frustrations) 2026/11/10 FT"
+                    }
+                }
+            },
+            {
+                "id": 50434130,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50434130/seahawks-start-drew-lock-vs-raiders-mike-macdonald-says",
+                "headline": "Lock to remain Seahawks' QB1 vs. Raiders, giving Darnold more time to heal",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "url": "https://a.espncdn.com/photo/2026/0915/r1717192_1296x518_5-2.jpg",
+                    "name": "Drew Lock for GROWLER [1296x518]"
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-11-10T01:16:55.000+00:00",
+                "byline": "Brady Henderson",
+                "authors": [
+                    {
+                        "displayName": "Brady Henderson",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/henderson_brady.png",
+                        "contributorLink": false
+                    }
+                ]
+            },
+            {
+                "id": 50429192,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50429192/drew-lock-overcomes-oblique-injury-seahawks-top-cardinals",
+                "headline": "Oblique injury doesn't slow down Lock as Seahawks laud 'warrior' QB after win",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "url": "https://a.espncdn.com/photo/2026/1109/r1743372_1296x518_5-2.jpg",
+                    "name": "Drew Lock [1296x518]"
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-11-09T05:27:42.000+00:00",
+                "byline": "Brady Henderson",
+                "authors": [
+                    {
+                        "displayName": "Brady Henderson",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/henderson_brady.png",
+                        "contributorLink": false
+                    }
+                ]
+            },
+            {
+                "id": 50400897,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50400897/sources-seahawks-sam-darnold-danger-missing-week-10",
+                "headline": "Seahawks' Darnold in jeopardy of missing Week 10 game vs. Raiders, sources say",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "url": "https://a.espncdn.com/photo/2026/1103/r1740370_1296x518_5-2.jpg",
+                    "name": "Sam Darnold IA [1296x518]",
+                    "caption": "Quarterback Sam Darnold struggled against the Bears defense in Seattle's Monday night loss."
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-11-08T13:33:54.000+00:00",
+                "byline": "Adam Schefter",
+                "authors": [
+                    {
+                        "displayName": "Adam Schefter",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/schefter_adam.png",
+                        "contributorLink": false
+                    }
+                ]
+            },
+            {
+                "id": 50402740,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50402740/seahawks-quenton-nelson-sam-darnold-starters-ruled-out",
+                "headline": "Seahawks' Nelson to have 'minor' knee procedure; QB Darnold also ruled out",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "alt": "Quenton Nelson",
+                    "url": "https://a.espncdn.com/photo/2026/1103/r1740726_1296x518_5-2.jpg",
+                    "name": "Quenton Nelson [1296x518]"
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-11-07T03:11:40.000+00:00",
+                "byline": "Brady Henderson",
+                "authors": [
+                    {
+                        "displayName": "Brady Henderson",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/henderson_brady.png",
+                        "contributorLink": false
+                    }
+                ]
+            },
+            {
+                "id": 50380713,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50380713/seahawks-qb-sam-darnold-ruled-quad-injury",
+                "headline": "Seahawks QB Darnold ruled out for Sunday, will be week-to-week, coach says",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "url": "https://a.espncdn.com/photo/2026/1104/r1741106_1296x518_5-2.jpg",
+                    "name": "Sam Darnold [1296x518]"
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-11-05T11:52:02.000+00:00",
+                "byline": "Brady Henderson",
+                "authors": [
+                    {
+                        "displayName": "Brady Henderson",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/henderson_brady.png",
+                        "contributorLink": false
+                    }
+                ]
+            },
+            {
+                "id": 50371759,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50371759/nfl-seahawks-bears-sam-darnold-pressure",
+                "headline": "Sam Darnold struggling under pressure, but Seahawks preaching patience with O-line",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "url": "https://a.espncdn.com/photo/2026/1104/r1740853_1296x518_5-2.jpg",
+                    "name": "Sam Darnold [1296x518]"
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-11-04T18:52:38.000+00:00",
+                "byline": "Brady Henderson",
+                "authors": [
+                    {
+                        "displayName": "Brady Henderson",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/henderson_brady.png",
+                        "contributorLink": false
+                    }
+                ]
+            },
+            {
+                "id": 50364209,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50364209/chicago-bears-seattle-seahawks-mnf-jeffery-simmons-sam-darnold",
+                "headline": "Jeffery Simmons makes smashing Bears debut in rout of Seahawks",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "url": "https://a.espncdn.com/photo/2026/1103/r1740359_1296x518_5-2.jpg",
+                    "name": "Jeffery Simmons [1296x518]",
+                    "caption": "The Bears' trade for Jeffery Simmons paid immediate dividends as the All-Pro defensive tackle was a major factor in the win over Seattle."
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-11-03T05:40:17.000+00:00",
+                "byline": "Courtney Cronin, Brady Henderson",
+                "authors": [
+                    {
+                        "displayName": "Courtney Cronin",
+                        "headshotSrc": "https://www.espn.com/i/columnists/full/cronin_courtney.png",
+                        "contributorLink": false
+                    },
+                    {
+                        "displayName": "Brady Henderson",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/henderson_brady.png",
+                        "contributorLink": false
+                    }
+                ]
+            },
+            {
+                "id": 50233140,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50233140/seattle-seahawks-kansas-city-chiefs-kenneth-walker",
+                "headline": "'Bro, he's different': Why Seattle let Kenneth Walker III leave, and Kansas City couldn't be happier",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "alt": "Kenneth Walker",
+                    "url": "https://a.espncdn.com/photo/2026/1021/nfl_walker_5x2.jpg",
+                    "name": "Kenneth Walker [1296x518]"
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-10-23T10:58:00.000+00:00",
+                "byline": "Nate Taylor, Brady Henderson",
+                "authors": [
+                    {
+                        "displayName": "Nate Taylor",
+                        "headshotSrc": "https://a.espncdn.com/combiner/i?img=/i/columnists/full/taylor_nate.png",
+                        "contributorLink": false
+                    },
+                    {
+                        "displayName": "Brady Henderson",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/henderson_brady.png",
+                        "contributorLink": false
+                    }
+                ]
+            },
+            {
+                "id": 50197704,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50197704/seahawks-sticking-sam-darnold-starter-ints",
+                "headline": "Seahawks sticking with Darnold despite 7 INTs in 4 games",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "alt": "Sam Darnold",
+                    "url": "https://a.espncdn.com/photo/2026/1016/r1731410_1296x518_5-2.jpg",
+                    "name": "Sam Darnold [1296x518]"
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-10-16T19:33:47.000+00:00",
+                "byline": "Brady Henderson",
+                "authors": [
+                    {
+                        "displayName": "Brady Henderson",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/henderson_brady.png",
+                        "contributorLink": false
+                    }
+                ]
+            },
+            {
+                "id": 50194585,
+                "type": "Story",
+                "link": "/nfl/story/_/id/50194585/seahawks-darnold-owns-turnovers-loss-broncos",
+                "headline": "Darnold owns up to mistakes in OT loss: Late picks 'not fair' to Seahawks",
+                "image": {
+                    "width": 1296,
+                    "height": 518,
+                    "url": "https://a.espncdn.com/photo/2026/1016/r1731494_1296x518_5-2.jpg",
+                    "name": "Sam Darnold [1296x518]"
+                },
+                "description": "",
+                "isPremium": false,
+                "published": "2026-10-16T15:53:57.000+00:00",
+                "byline": "Brady Henderson",
+                "authors": [
+                    {
+                        "displayName": "Brady Henderson",
+                        "headshotSrc": "https://a.espncdn.com/i/columnists/full/henderson_brady.png",
+                        "contributorLink": false
+                    }
+                ]
+            }
+        ]
+    },
+    "roto": {
+        "news": [
+            {
+                "cnt": "Head coach Mike Macdonald said Monday that he's \"really optimistic\" Darnold (quadriceps/ribs) will be able to get a full week's worth of practice coming out of the Seahawks' Week 11 bye and start their next game Sunday, Nov. 29, against the 49ers, John Boyle of the team's official site reports.",
+                "dt": "Mon Nov 16 10:03:13 PST 2026",
+                "key": "nws"
+            },
+            {
+                "cnt": "Darnold, who last played in Week 8, still is working his way through a pair of injuries, but barring any setbacks, he's trending toward a Week 12 return. Macdonald reiterated that Darnold will be the team's starter once healthy, even though backup Drew Lock has guided Seattle to a 4-0 record while coming on in relief or starting in place of an injured Darnold in the first two games of the season as well as the most recent two contests.",
+                "key": "spn"
+            },
+            {
+                "key": "prjctn",
+                "cnt": "Darnold's first season with the Super Bowl champion Seahawks couldn't have gone much better from a real-life standpoint, but it simply didn't translate to much fantasy success. Despite finishing fifth in the NFL in passing yards for the second season in a row, Darnold finished 27th in fantasy points per game. He was very boom or bust, delivering seven top-10 weeks but also nine finishes outside the top 20. Turnovers (15 INTs were second most in the NFL) and a lack of rushing were the culprits. The 29-year-old will have a new playcaller in Brian Fleury, but otherwise it's roughly the status quo offensively. Darnold is no more than a fringe QB2 with a limited ceiling."
+            }
+        ],
+        "sportId": "football"
+    },
+    "spFnt": true,
+    "sbpg": "overview",
+    "status": {
+        "lbl": "QUESTIONABLE",
+        "id": "injury-4",
+        "date": "2026-11-16T18:03:00.000+00:00",
+        "msg": "Head coach Mike Macdonald said Monday that he's \"really optimistic\" Darnold (quadriceps/ribs) will be able to get a full week's worth of practice coming out of the Seahawks' Week 11 bye and start their next game Sunday, Nov. 29, against the 49ers, John Boyle of the team's official site reports."
+    },
+    "nxtGm": {
+        "gmStrp": {
+            "broadcasts": [
+                {
+                    "name": "CBS"
+                }
+            ],
+            "completed": false,
+            "date": "2026-11-15T21:05:00.000+00:00",
+            "gmlnkTtl": "Game Summary",
+            "id": "401873062",
+            "link": "https://www.espn.com/nfl/game/_/gameId/401873062/seahawks-raiders",
+            "note": "",
+            "name": "football",
+            "odds": {},
+            "showTeamColors": false,
+            "status": {
+                "clock": "0.0",
+                "completed": false,
+                "description": "Final",
+                "detail": "Final",
+                "shortDetail": "Final",
+                "period": 4,
+                "state": "post"
+            },
+            "statusState": "post",
+            "statusId": "3",
+            "tbd": false,
+            "teamColorAway": "002a5c",
+            "teamColorHome": "000000",
+            "teams": [
+                {
+                    "id": "13",
+                    "uid": "s:20~l:28~t:13",
+                    "abbrev": "LV",
+                    "displayName": "Las Vegas Raiders",
+                    "shortDisplayName": "Raiders",
+                    "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/lv.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+                    "logoDk": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500-dark/lv.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+                    "isHome": true,
+                    "order": 0,
+                    "winner": false,
+                    "score": "13",
+                    "poss": false,
+                    "linescores": [],
+                    "records": [
+                        {
+                            "name": "Total",
+                            "abbreviation": "Total",
+                            "type": "total",
+                            "summary": "4-6"
+                        }
+                    ]
+                },
+                {
+                    "id": "26",
+                    "uid": "s:20~l:28~t:26",
+                    "abbrev": "SEA",
+                    "displayName": "Seattle Seahawks",
+                    "shortDisplayName": "Seahawks",
+                    "logo": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/sea.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+                    "logoDk": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500-dark/sea.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+                    "isHome": false,
+                    "order": 1,
+                    "winner": true,
+                    "score": "21",
+                    "poss": false,
+                    "linescores": [],
+                    "records": [
+                        {
+                            "name": "Total",
+                            "abbreviation": "Total",
+                            "type": "total",
+                            "summary": "6-4"
+                        }
+                    ]
+                }
+            ],
+            "textColor": "ffffff",
+            "time": "4:05 PM",
+            "timezone": ""
+        },
+        "hasSplts": true,
+        "lg": "nfl",
+        "splts": {
+            "lbls": [
+                {
+                    "data": "CMP",
+                    "ttl": "Completions"
+                },
+                {
+                    "data": "ATT",
+                    "ttl": "Passing Attempts"
+                },
+                {
+                    "data": "CMP%",
+                    "ttl": "Completion Percentage"
+                },
+                {
+                    "data": "YDS",
+                    "ttl": "Passing Yards"
+                },
+                {
+                    "data": "AVG",
+                    "ttl": "Yards Per Pass Attempt"
+                },
+                {
+                    "data": "TD",
+                    "ttl": "Passing Touchdowns"
+                },
+                {
+                    "data": "INT",
+                    "ttl": "Interceptions"
+                },
+                {
+                    "data": "LNG",
+                    "ttl": "Longest Pass"
+                },
+                {
+                    "data": "SACK",
+                    "ttl": "Total Sacks"
+                },
+                {
+                    "data": "RTG",
+                    "ttl": "Passer Rating"
+                },
+                {
+                    "data": "CAR",
+                    "ttl": "Rushing Attempts"
+                },
+                {
+                    "data": "YDS",
+                    "ttl": "Rushing Yards"
+                },
+                {
+                    "data": "AVG",
+                    "ttl": "Yards Per Rush Attempt"
+                },
+                {
+                    "data": "TD",
+                    "ttl": "Rushing Touchdowns"
+                },
+                {
+                    "data": "LNG",
+                    "ttl": "Long Rushing"
+                }
+            ],
+            "stats": [
+                [
+                    "Away",
+                    "58",
+                    "96",
+                    "60.4",
+                    "657",
+                    "6.8",
+                    "4",
+                    "4",
+                    "42",
+                    "5",
+                    "77.5",
+                    "3",
+                    "24",
+                    "8.0",
+                    "0",
+                    "18"
+                ],
+                [
+                    "vs NFC",
+                    "66",
+                    "108",
+                    "61.1",
+                    "762",
+                    "7.1",
+                    "7",
+                    "5",
+                    "43",
+                    "8",
+                    "84.7",
+                    "4",
+                    "30",
+                    "7.5",
+                    "0",
+                    "14"
+                ],
+                [
+                    "Nov",
+                    "17",
+                    "34",
+                    "50.0",
+                    "188",
+                    "5.5",
+                    "2",
+                    "1",
+                    "43",
+                    "3",
+                    "74.1",
+                    "2",
+                    "20",
+                    "10.0",
+                    "0",
+                    "14"
+                ]
+            ]
+        },
+        "title": "Previous Game",
+        "tmClr": "002a5c",
+        "txtClr": "ffffff"
+    },
+    "fnt": {
+        "leagueId": "nfl",
+        "sportId": "football",
+        "rk": "26",
+        "dft": false,
+        "pct": "21.27",
+        "svn": "-0.19"
+    },
+    "stats": {
+        "title": "2026 Passing",
+        "categories": [
+            {
+                "name": "passing",
+                "displayName": "Passing",
+                "count": 10
+            },
+            {
+                "name": "rushing",
+                "displayName": "Rushing",
+                "count": 5
+            }
+        ],
+        "splts": {
+            "lbls": [
+                {
+                    "data": "CMP",
+                    "ttl": "Completions"
+                },
+                {
+                    "data": "ATT",
+                    "ttl": "Passing Attempts"
+                },
+                {
+                    "data": "CMP%",
+                    "ttl": "Completion Percentage"
+                },
+                {
+                    "data": "YDS",
+                    "ttl": "Passing Yards"
+                },
+                {
+                    "data": "AVG",
+                    "ttl": "Yards Per Pass Attempt"
+                },
+                {
+                    "data": "TD",
+                    "ttl": "Passing Touchdowns"
+                },
+                {
+                    "data": "INT",
+                    "ttl": "Interceptions"
+                },
+                {
+                    "data": "LNG",
+                    "ttl": "Longest Pass"
+                },
+                {
+                    "data": "SACK",
+                    "ttl": "Total Sacks"
+                },
+                {
+                    "data": "RTG",
+                    "ttl": "Passer Rating"
+                },
+                {
+                    "data": "CAR",
+                    "ttl": "Rushing Attempts"
+                },
+                {
+                    "data": "YDS",
+                    "ttl": "Rushing Yards"
+                },
+                {
+                    "data": "AVG",
+                    "ttl": "Yards Per Rush Attempt"
+                },
+                {
+                    "data": "TD",
+                    "ttl": "Rushing Touchdowns"
+                },
+                {
+                    "data": "LNG",
+                    "ttl": "Long Rushing"
+                }
+            ],
+            "stats": [
+                [
+                    "Regular Season",
+                    "127",
+                    "211",
+                    "60.2",
+                    "1,478",
+                    "7.0",
+                    "10",
+                    "9",
+                    "43",
+                    "17",
+                    "79.5",
+                    "11",
+                    "72",
+                    "6.5",
+                    "0",
+                    "18"
+                ],
+                [
+                    "Projected",
+                    "215",
+                    "358",
+                    "60.2",
+                    "2,512",
+                    "7.0",
+                    "17",
+                    "15",
+                    "43",
+                    "28.9",
+                    "79.5",
+                    "18",
+                    "122",
+                    "6.5",
+                    "0",
+                    "18"
+                ],
+                [
+                    "Last 5 Games",
+                    "95",
+                    "164",
+                    "59.1",
+                    "1,086",
+                    "6.9",
+                    "6",
+                    "7",
+                    "43",
+                    "16",
+                    "76.5",
+                    "10",
+                    "67",
+                    "7.0",
+                    "0",
+                    "18"
+                ],
+                [
+                    "Career",
+                    "1893",
+                    "3044",
+                    "62.2",
+                    "21,909",
+                    "7.2",
+                    "133",
+                    "91",
+                    "97",
+                    "241",
+                    "86.0",
+                    "322",
+                    "1,139",
+                    "3.5",
+                    "14",
+                    "46"
+                ]
+            ]
+        }
+    },
+    "gmlg": {
+        "stats": [
+            {
+                "headings": [
+                    {
+                        "data": "CMP",
+                        "ttl": "Completions"
+                    },
+                    {
+                        "data": "ATT",
+                        "ttl": "Passing Attempts"
+                    },
+                    {
+                        "data": "YDS",
+                        "ttl": "Passing Yards"
+                    },
+                    {
+                        "data": "CMP%",
+                        "ttl": "Completion Percentage"
+                    },
+                    {
+                        "data": "AVG",
+                        "ttl": "Yards Per Pass Attempt"
+                    },
+                    {
+                        "data": "TD",
+                        "ttl": "Passing Touchdowns"
+                    },
+                    {
+                        "data": "INT",
+                        "ttl": "Interceptions"
+                    },
+                    {
+                        "data": "LNG",
+                        "ttl": "Longest Pass"
+                    },
+                    {
+                        "data": "SACK",
+                        "ttl": "Total Sacks"
+                    },
+                    {
+                        "data": "RTG",
+                        "ttl": "Passer Rating"
+                    },
+                    {
+                        "data": "QBR",
+                        "ttl": "Adjusted QBR"
+                    }
+                ],
+                "title": "Passing",
+                "rows": [
+                    {
+                        "id": "401872977",
+                        "dt": "2026-10-04T20:25:00.000+00:00",
+                        "res": {
+                            "abbr": "W",
+                            "score": "30-23",
+                            "href": "https://www.espn.com/nfl/game/_/gameId/401872977/chargers-seahawks"
+                        },
+                        "opp": {
+                            "id": "24",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+                            "href": "/nfl/team/_/name/lac/los-angeles-chargers",
+                            "uid": "s:20~l:28~t:24",
+                            "abbr": "LAC",
+                            "name": "Los Angeles Chargers",
+                            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lac.png",
+                            "atVs": "vs"
+                        },
+                        "stats": [
+                            "13",
+                            "22",
+                            "168",
+                            "59.1",
+                            "7.6",
+                            "2",
+                            "1",
+                            "28",
+                            "3",
+                            "94.5",
+                            "20.9"
+                        ]
+                    },
+                    {
+                        "id": "401872992",
+                        "dt": "2026-10-11T20:25:00.000+00:00",
+                        "res": {
+                            "abbr": "L",
+                            "score": "32-29",
+                            "href": "https://www.espn.com/nfl/game/_/gameId/401872992/49ers-seahawks"
+                        },
+                        "opp": {
+                            "id": "25",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+                            "href": "/nfl/team/_/name/sf/san-francisco-49ers",
+                            "uid": "s:20~l:28~t:25",
+                            "abbr": "SF",
+                            "name": "San Francisco 49ers",
+                            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+                            "atVs": "vs"
+                        },
+                        "stats": [
+                            "18",
+                            "29",
+                            "195",
+                            "62.1",
+                            "6.7",
+                            "1",
+                            "2",
+                            "38",
+                            "5",
+                            "64.6",
+                            "27.2"
+                        ]
+                    },
+                    {
+                        "id": "401872995",
+                        "dt": "2026-10-16T00:15:00.000+00:00",
+                        "res": {
+                            "abbr": "L",
+                            "score": "17-14 OT",
+                            "href": "https://www.espn.com/nfl/game/_/gameId/401872995/seahawks-broncos"
+                        },
+                        "opp": {
+                            "id": "7",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+                            "href": "/nfl/team/_/name/den/denver-broncos",
+                            "uid": "s:20~l:28~t:7",
+                            "abbr": "DEN",
+                            "name": "Denver Broncos",
+                            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+                            "atVs": "@"
+                        },
+                        "stats": [
+                            "27",
+                            "51",
+                            "278",
+                            "52.9",
+                            "5.5",
+                            "0",
+                            "2",
+                            "42",
+                            "5",
+                            "52.6",
+                            "54.6"
+                        ]
+                    },
+                    {
+                        "id": "401873022",
+                        "dt": "2026-10-26T00:20:00.000+00:00",
+                        "res": {
+                            "abbr": "W",
+                            "score": "20-3",
+                            "href": "https://www.espn.com/nfl/game/_/gameId/401873022/chiefs-seahawks"
+                        },
+                        "opp": {
+                            "id": "12",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+                            "href": "/nfl/team/_/name/kc/kansas-city-chiefs",
+                            "uid": "s:20~l:28~t:12",
+                            "abbr": "KC",
+                            "name": "Kansas City Chiefs",
+                            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+                            "atVs": "vs"
+                        },
+                        "stats": [
+                            "20",
+                            "28",
+                            "257",
+                            "71.4",
+                            "9.2",
+                            "1",
+                            "1",
+                            "33",
+                            "0",
+                            "96.9",
+                            "93.1"
+                        ]
+                    },
+                    {
+                        "id": "401873036",
+                        "dt": "2026-11-03T01:15:00.000+00:00",
+                        "res": {
+                            "abbr": "L",
+                            "score": "34-17",
+                            "href": "https://www.espn.com/nfl/game/_/gameId/401873036/bears-seahawks"
+                        },
+                        "opp": {
+                            "id": "3",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+                            "href": "/nfl/team/_/name/chi/chicago-bears",
+                            "uid": "s:20~l:28~t:3",
+                            "abbr": "CHI",
+                            "name": "Chicago Bears",
+                            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+                            "atVs": "vs"
+                        },
+                        "stats": [
+                            "17",
+                            "34",
+                            "188",
+                            "50.0",
+                            "5.5",
+                            "2",
+                            "1",
+                            "43",
+                            "3",
+                            "74.1",
+                            "33.9"
+                        ]
+                    }
+                ],
+                "fixedLeft": 5
+            },
+            {
+                "headings": [
+                    {
+                        "data": "CAR",
+                        "ttl": "Rushing Attempts"
+                    },
+                    {
+                        "data": "YDS",
+                        "ttl": "Rushing Yards"
+                    },
+                    {
+                        "data": "AVG",
+                        "ttl": "Yards Per Rush Attempt"
+                    },
+                    {
+                        "data": "TD",
+                        "ttl": "Rushing Touchdowns"
+                    },
+                    {
+                        "data": "LNG",
+                        "ttl": "Long Rushing"
+                    }
+                ],
+                "title": "Rushing",
+                "rows": [
+                    {
+                        "id": "401872977",
+                        "dt": "2026-10-04T20:25:00.000+00:00",
+                        "res": {
+                            "abbr": "W",
+                            "score": "30-23",
+                            "href": "https://www.espn.com/nfl/game/_/gameId/401872977/chargers-seahawks"
+                        },
+                        "opp": {
+                            "id": "24",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+                            "href": "/nfl/team/_/name/lac/los-angeles-chargers",
+                            "uid": "s:20~l:28~t:24",
+                            "abbr": "LAC",
+                            "name": "Los Angeles Chargers",
+                            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/lac.png",
+                            "atVs": "vs"
+                        },
+                        "stats": [
+                            "3",
+                            "6",
+                            "2.0",
+                            "0",
+                            "8"
+                        ]
+                    },
+                    {
+                        "id": "401872992",
+                        "dt": "2026-10-11T20:25:00.000+00:00",
+                        "res": {
+                            "abbr": "L",
+                            "score": "32-29",
+                            "href": "https://www.espn.com/nfl/game/_/gameId/401872992/49ers-seahawks"
+                        },
+                        "opp": {
+                            "id": "25",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+                            "href": "/nfl/team/_/name/sf/san-francisco-49ers",
+                            "uid": "s:20~l:28~t:25",
+                            "abbr": "SF",
+                            "name": "San Francisco 49ers",
+                            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/sf.png",
+                            "atVs": "vs"
+                        },
+                        "stats": [
+                            "1",
+                            "5",
+                            "5.0",
+                            "0",
+                            "5"
+                        ]
+                    },
+                    {
+                        "id": "401872995",
+                        "dt": "2026-10-16T00:15:00.000+00:00",
+                        "res": {
+                            "abbr": "L",
+                            "score": "17-14 OT",
+                            "href": "https://www.espn.com/nfl/game/_/gameId/401872995/seahawks-broncos"
+                        },
+                        "opp": {
+                            "id": "7",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+                            "href": "/nfl/team/_/name/den/denver-broncos",
+                            "uid": "s:20~l:28~t:7",
+                            "abbr": "DEN",
+                            "name": "Denver Broncos",
+                            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/den.png",
+                            "atVs": "@"
+                        },
+                        "stats": [
+                            "2",
+                            "19",
+                            "9.5",
+                            "0",
+                            "18"
+                        ]
+                    },
+                    {
+                        "id": "401873022",
+                        "dt": "2026-10-26T00:20:00.000+00:00",
+                        "res": {
+                            "abbr": "W",
+                            "score": "20-3",
+                            "href": "https://www.espn.com/nfl/game/_/gameId/401873022/chiefs-seahawks"
+                        },
+                        "opp": {
+                            "id": "12",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+                            "href": "/nfl/team/_/name/kc/kansas-city-chiefs",
+                            "uid": "s:20~l:28~t:12",
+                            "abbr": "KC",
+                            "name": "Kansas City Chiefs",
+                            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/kc.png",
+                            "atVs": "vs"
+                        },
+                        "stats": [
+                            "2",
+                            "17",
+                            "8.5",
+                            "0",
+                            "10"
+                        ]
+                    },
+                    {
+                        "id": "401873036",
+                        "dt": "2026-11-03T01:15:00.000+00:00",
+                        "res": {
+                            "abbr": "L",
+                            "score": "34-17",
+                            "href": "https://www.espn.com/nfl/game/_/gameId/401873036/bears-seahawks"
+                        },
+                        "opp": {
+                            "id": "3",
+                            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+                            "href": "/nfl/team/_/name/chi/chicago-bears",
+                            "uid": "s:20~l:28~t:3",
+                            "abbr": "CHI",
+                            "name": "Chicago Bears",
+                            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/chi.png",
+                            "atVs": "vs"
+                        },
+                        "stats": [
+                            "2",
+                            "20",
+                            "10.0",
+                            "0",
+                            "14"
+                        ]
+                    }
+                ],
+                "fixedLeft": 5
+            }
+        ],
+        "hdr": "Recent Games"
+    },
+    "meta": {
+        "stndngs": {
+            "headers": [
+                [
+                    {
+                        "type": "team"
+                    },
+                    {
+                        "type": "wins"
+                    },
+                    {
+                        "type": "losses"
+                    },
+                    {
+                        "type": "ties"
+                    },
+                    {
+                        "type": "winpercent"
+                    },
+                    {
+                        "type": "pointsfor"
+                    },
+                    {
+                        "type": "pointsagainst"
+                    }
+                ]
+            ],
+            "config": {
+                "isHeaderStatic": true
+            }
+        },
+        "bio": [
+            {
+                "key": "tm",
+                "keysh": "tmSh",
+                "lbl": "Team",
+                "lnkKey": "tmLnk",
+                "lnkAttr": {
+                    "data-clubhouse-uid": "tmUid"
+                }
+            },
+            {
+                "key": "pos",
+                "lbl": "Position",
+                "keysh": "posAbv"
+            },
+            {
+                "key": "htwt",
+                "lbl": "HT/WT"
+            },
+            {
+                "key": "ht",
+                "lbl": "Height"
+            },
+            {
+                "key": "wt",
+                "lbl": "Weight"
+            },
+            {
+                "key": "dob",
+                "lbl": "player.birthdate"
+            },
+            {
+                "key": "col",
+                "lbl": "College",
+                "lnkKey": "colLnk",
+                "uid": "colUid",
+                "lnkAttr": {
+                    "data-clubhouse-uid": "colUid"
+                }
+            },
+            {
+                "key": "drft",
+                "lbl": "Draft Info"
+            },
+            {
+                "key": "sts",
+                "lbl": "player.Status",
+                "id": "stsid"
+            },
+            {
+                "key": "exp",
+                "lbl": "Experience"
+            },
+            {
+                "key": "brthpl",
+                "lbl": "Birthplace"
+            }
+        ],
+        "gmlog": {
+            "eventCols": [
+                "Date",
+                "OPP",
+                "Result"
+            ],
+            "notes": [
+                {
+                    "alwaysShow": true,
+                    "txt": ""
+                }
+            ],
+            "lnk": "/nfl/player/gamelog/_/id/3912547"
+        },
+        "hdr": {
+            "middleHdr": [
+                {
+                    "key": "htwt",
+                    "lbl": "HT/WT"
+                },
+                {
+                    "key": "ht",
+                    "lbl": "Height"
+                },
+                {
+                    "key": "wt",
+                    "lbl": "Weight"
+                },
+                {
+                    "key": "dob",
+                    "lbl": "player.birthdate"
+                },
+                {
+                    "key": "col",
+                    "lbl": "College",
+                    "lnkKey": "colLnk",
+                    "uid": "colUid",
+                    "lnkAttr": {
+                        "data-clubhouse-uid": "colUid"
+                    }
+                },
+                {
+                    "key": "drft",
+                    "lbl": "Draft Info"
+                },
+                {
+                    "key": "sts",
+                    "lbl": "player.Status",
+                    "id": "stsid"
+                },
+                {
+                    "key": "exp",
+                    "lbl": "Experience"
+                },
+                {
+                    "key": "brthpl",
+                    "lbl": "Birthplace"
+                }
+            ],
+            "lfthdr": [
+                {
+                    "key": "tm",
+                    "keysh": "tmSh",
+                    "lbl": "Team",
+                    "lnkKey": "tmLnk",
+                    "lnkAttr": {
+                        "data-clubhouse-uid": "tmUid"
+                    }
+                },
+                {
+                    "key": "dspNum"
+                },
+                {
+                    "key": "pos",
+                    "lbl": "Position",
+                    "keysh": "posAbv"
+                }
+            ]
+        },
+        "medialst": {
+            "lnk": "/nfl/player/news/_/id/3912547"
+        },
+        "nws": {
+            "lnk": "/nfl/player/news/_/id/3912547"
+        },
+        "nxtGm": {
+            "realtime": "nfl",
+            "lnk": "/nfl/player/splits/_/id/3912547"
+        },
+        "ovvw": {
+            "note": {
+                "txt": ""
+            }
+        },
+        "splt": {
+            "note": {
+                "txt": ""
+            }
+        },
+        "stats": {
+            "lnk": "/nfl/player/stats/_/id/3912547"
+        },
+        "statsTb": {
+            "note": {
+                "txt": ""
+            }
+        }
+    }
+}

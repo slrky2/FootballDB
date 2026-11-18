@@ -1,43 +1,43 @@
-import requests, json, os, re, sqlite3, game_scrape
+import requests, json, os, re, sqlite3
 
 game_url = "https://www.espn.com/nfl/boxscore/_/gameId/401872995"
-html = requests.get(game_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10).text
+gameHtml = requests.get(game_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10).text
 
 marker = re.compile(r"window\['__espnfitt__'\]\s*=\s*")
 
 connection = sqlite3.connect("football.db")
 cursor = connection.cursor()
 
-cursor.execute("""""
-    CREATE TABLE IF NOT EXISTS players
-    id = INTEGER PRIMARY KEY,
-    name = TEXT
-    position TEXT,
-    team TEXT,
-    age INTEGER, 
-            """)
+cursor.execute("PRAGMA foreign_keys = ON;")
 
-def getPlayerInfo(url):
-    html = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10).text
-    marker = "window['__espnfitt__']="
-    start = html.index(marker) + len(marker)
-    data, _ = json.JSONDecoder().raw_decode(html[start:])
-    player = data["page"]["content"]["player"]
-
-    cursor.execute(
-        "INSERT INTO players (position, team, age) VALUES (?, ?, ?)"
-        (player["plyrHdr"]["ath"]["posAbv"], player["plyrHdr"]["ath"]["tm"]), 
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS players (
+        id INTEGER PRIMARY KEY,
+        name TEXT,
+        position TEXT,
+        team TEXT,
+        age TEXT
     )
-    print ('\nPosition:'+ player["plyrHdr"]["ath"]["pos"] + '\nAbrev:' + player["plyrHdr"]["ath"]["posAbv"]+ '\nTeam:' + player["plyrHdr"]["ath"]["tm"])
+""")
 
+def loadPlayerFromHtml(html):
+    match = marker.search(html)
+    if match is None:
+        raise ValueError("ESPN data marker not found in player HTML")
+    data, _ = json.JSONDecoder().raw_decode(html[match.end():])
+    return data["page"]["content"]["player"]
 
-def load_game_from_html(html):
-    m = marker.search(html)
-    data, _ = json.JSONDecoder().raw_decode(html[m.end():])
+    #         (player["plyrHdr"]["ath"]["posAbv"], player["plyrHdr"]["ath"]["tm"], player["plyrHdr"]["ath"]["dob"]  ) 
+
+def loadGameFromHtml(html):
+    match = marker.search(html)
+    if match is None:
+        raise ValueError("ESPN data marker not found in game HTML")
+    data, _ = json.JSONDecoder().raw_decode(html[match.end():])
     return data["page"]["content"]["gamepackage"]
 
-# only grab the important data from the scrape
-item = load_game_from_html(html)
+# only grab the GAME data from the scrape
+item = loadGameFromHtml(gameHtml)
 with open("game_data.json", "w") as f:
     json.dump(item, f)
 
@@ -62,7 +62,21 @@ with open("game_data.json", encoding="utf-8") as f:
                 p = players["stats"]
                 statsheet = list(zip(s,p))
                 print(players["athlt"]["dspNm"], end=':     ')
+                
                 player_id = (players["athlt"]["id"])
-                player_url = f"https://www.espn.com/nfl/player/_/id/{player_id}"
-                getPlayerInfo(player_url)
-                print(statsheet)
+                name = players["athlt"]["dspNm"] 
+                
+                playerUrl = f"https://www.espn.com/nfl/player/_/id/{player_id}"
+                playerHtml = requests.get(playerUrl, headers={"User-Agent": "Mozilla/5.0"}, timeout=10).text
+                
+                # pItem = loadPlayerFromHtml(playerHtml)
+                # with open(f"{name}_data.json", "w") as f:
+                #     json.dump(pItem, f)
+        
+                playerItem = loadPlayerFromHtml(playerHtml)
+                cursor.execute(
+                    "INSERT INTO players(id, name, position, team, age) VALUES (?, ?, ?, ?, ?)",
+                    (player_id, name, playerItem["plyrHdr"]["ath"]["posAbv"], playerItem["plyrHdr"]["ath"]["tm"], playerItem["plyrHdr"]["ath"]["dob"]),
+                )
+                # print(statsheet)
+                connection.commit()
