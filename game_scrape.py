@@ -13,12 +13,9 @@ cursor.execute("PRAGMA foreign_keys = ON;")
 schema = Path(__file__).with_name("schema.sql").read_text(encoding="utf-8")
 cursor.executescript(schema)
 
-def seperateFraction(str):
-    numerator = re.compile(r"\d+(?=/)")
-    denominator = re.compile(r"(?<=/)+\d+")
-    num = re.search(numerator, str)
-    denom = re.search(denominator, str)
-    return {num, denom}
+def seperateFraction(value):
+    first, second = re.split(r"[/-]", value, maxsplit=1)
+    return [int(first), int(second)]
 
 def loadPlayerFromHtml(html):
     match = marker.search(html)
@@ -80,68 +77,78 @@ with open("game_data.json", encoding="utf-8") as f:
                 
                 match (s[0] if s else None):
                     case "completions/passingAttempts":
-                        cursor.execute("""(
-                            INSERT INTO passing(playerID, completions, pAttempts, pYards, YPPA, pTouchdowns, ints, sacks, YLtoSacks, adjQBR, QBR)
-                            VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?),
-                            (playerID, p[0], p[1], p[2], p[3], p[4], p[5], p[6], p[7], p[8], p[9]), 
-                                )
-                                    """)
+                        val = seperateFraction(p[0])
+                        vals = seperateFraction(p[5])
+                        cursor.execute(
+                            "INSERT INTO passing(playerID, completions, pAttempts, pYards, YPPA, pTouchdowns, ints, sacks, YLtoSacks, adjQBR, QBR)"
+                            "VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                            (playerID, val[0], val[1], p[1], p[2], p[3], p[4], vals[0], vals[1], p[6], p[7])
+                        )
+                        pass
+                    case "rushingAttempts":
+                        cursor.execute(
+                            "INSERT INTO rushing(playerID, rAttempts, rYards, YPRA, rTouchdowns, longestRush)"
+                            "VALUES(?, ?, ?, ?, ?, ?)",
+                            (playerID, p[0], p[1], p[2], p[3], p[4])
+                        )
                         pass
                     case "receptions":
-                        cursor.execute("""(
-                            INSERT INTO receiving(playerID, receptions, rYards, YPR, rTouchdowns, fumbles)
-                            VALUES(?, ?, ?, ?, ?),
-                            (playerID, p[0], p[1], p[2], p[3], p[4]), 
-                                )
-                                    """)
+                        cursor.execute(
+                            "INSERT INTO receiving(playerID, receptions, receivingYards, yardsPerReception, receivingTouchdowns, longReception, receivingTargets)"
+                            "VALUES(?, ?, ?, ?, ?, ?, ?)",
+                            (playerID, p[0], p[1], p[2], p[3], p[4], p[5])
+                        )
                         pass
                     case "fumbles":
-                        cursor.execute("""(
-                            INSERT INTO fumbles(playerID, fumbles, fumblesLost)
-                            VALUES(?, ?, ?),
-                            (playerID, p[0], p[1]), 
-                                )
-                                    """)
+                        cursor.execute(
+                            "INSERT INTO fumbles(playerID, fumbles, fumblesLost, fumblesRecovered)"
+                            "VALUES(?, ?, ?, ?)",
+                            (playerID, p[0], p[1], p[2])
+                        )
                         pass
                     case "totalTackles":
-                        cursor.execute("""(
-                            INSERT INTO defense(playerID, totalTackles, soloTackles, assists, sacks, YLtoSacks, tacklesForLoss, YLtoTFL, passesDefended, interceptions, kickReturns, puntReturns, fieldGoalsMade/fieldGoalAttempts)
-                            VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?),
-                            (playerID, p[0], p[1], p[2], p[3], p[4], p[5], p[6], p[7], p[8], p[9], p[10], p[11]), 
-                                )
-                                    """)
+                        cursor.execute(
+                            "INSERT INTO defense(playerID, totalTackles, soloTackles, sacks, tacklesForLoss, passesDefended, QBHits, DefensiveTouchdowns)"
+                            "VALUES(?, ?, ?, ?, ?, ?, ?, ?)",
+                            (playerID, p[0], p[1], p[2], p[3], p[4], p[5], p[6])
+                        )
                         pass
                     case "interceptions":
-                        cursor.execute("""(
-                            INSERT INTO defense(playerID, totalTackles, soloTackles, assists, sacks, YLtoSacks, tacklesForLoss, YLtoTFL, passesDefended, interceptions, kickReturns, puntReturns, fieldGoalsMade/fieldGoalAttempts)
-                            VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?),
-                            (playerID, p[0], p[1], p[2], p[3], p[4], p[5], p[6], p[7], p[8], p[9], p[10], p[11]), 
-                                )
-                                    """)
+                        cursor.execute(
+                            "INSERT INTO defensive_interceptions(playerID, interceptions, interceptionYards, interceptionTouchdowns)"
+                            "VALUES(?, ?, ?, ?)",
+                            (playerID, p[0], p[1], p[2])
+                        )
                         pass
                     case "kickReturns":
-                        cursor.execute("""(
-                            INSERT INTO defense(playerID, totalTackles, soloTackles, assists, sacks, YLtoSacks, tacklesForLoss, YLtoTFL, passesDefended, interceptions, kickReturns, puntReturns, fieldGoalsMade/fieldGoalAttempts)
-                            VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?),
-                            (playerID, p[0], p[1], p[2], p[3], p[4], p[5], p[6], p[7], p[8], p[9], p[10], p[11]), 
-                                )
-                                    """)
+                        cursor.execute(
+                            "INSERT INTO kick_returns(playerID, kickReturns, kickReturnYards, yardsPerKickReturn, longKickReturn, kickReturnTouchdowns)"
+                            "VALUES(?, ?, ?, ?, ?, ?)",
+                            (playerID, p[0], p[1], p[2], p[3], p[4])
+                        )
                         pass
                     case "puntReturns":
-                        cursor.execute("""(
-                            INSERT INTO defense(playerID, totalTackles, soloTackles, assists, sacks, YLtoSacks, tacklesForLoss, YLtoTFL, passesDefended, interceptions, kickReturns, puntReturns, fieldGoalsMade/fieldGoalAttempts)
-                            VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?),
-                            (playerID, p[0], p[1], p[2], p[3], p[4], p[5], p[6], p[7], p[8], p[9], p[10], p[11]), 
-                                )
-                                    """)
+                        cursor.execute(
+                            "INSERT INTO punt_returns(playerID, puntReturns, puntReturnYards, yardsPerPuntReturn, longPuntReturn, puntReturnTouchdowns)"
+                            "VALUES(?, ?, ?, ?, ?, ?)",
+                            (playerID, p[0], p[1], p[2], p[3], p[4])
+                        )
                         pass
                     case "fieldGoalsMade/fieldGoalAttempts":
-                        cursor.execute("""(
-                            INSERT INTO defense(playerID, totalTackles, soloTackles, assists, sacks, YLtoSacks, tacklesForLoss, YLtoTFL, passesDefended, interceptions, kickReturns, puntReturns, fieldGoalsMade/fieldGoalAttempts)
-                            VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?),
-                            (playerID, p[0], p[1], p[2], p[3], p[4], p[5], p[6], p[7], p[8], p[9], p[10], p[11]), 
-                                )
-                                    """)
+                        val = seperateFraction(p[0])
+                        vals = seperateFraction(p[3])
+                        cursor.execute(
+                            "INSERT INTO kicking(playerID, fieldGoalsMade, fieldGoalAttempts, fieldgoalPct, longFieldGoalMade, extraPointsMade, extraPointAttempts, totalKickingPoints)"
+                            "VALUES(?, ?, ?, ?, ?, ?, ?, ?)",
+                            (playerID, val[0], val[1], p[1], p[2], vals[0], vals[1], p[4])
+                        )
+                        pass
+                    case "punts":
+                        cursor.execute(
+                            "INSERT INTO punting(playerID, punts, puntYards, grossAvgPuntYards, touchbacks, puntsInside20, longPunt)"
+                            "VALUES(?, ?, ?, ?, ?, ?, ?)",
+                            (playerID, p[0], p[1], p[2], p[3], p[4], p[5])
+                        )
                         pass
                     case _: #default 
                         print("received a weird type of data? (switch error)")
