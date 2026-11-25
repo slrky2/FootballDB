@@ -2,8 +2,8 @@ import requests, json, os, re, sqlite3
 from pathlib import Path
 
 game_url = "https://www.espn.com/nfl/boxscore/_/gameId/401872995"
+# game_url = "https://www.espn.com/nfl/boxscore/_/gameId/401192711" # the 1980 game link.
 gameHtml = requests.get(game_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10).text
-
 marker = re.compile(r"window\['__espnfitt__'\]\s*=\s*")
 
 connection = sqlite3.connect("football.db")
@@ -68,6 +68,7 @@ with open("game_data.json", encoding="utf-8") as f:
                 # with open(f"{name}_data.json", "w") as f:
                 #     json.dump(pItem, f)
         
+                # TODO MAKE A DECISION, its probably smarter to download a players html once, instead of looking it up everytime over the course of the 17 games they can appear in a season
                 playerItem = loadPlayerFromHtml(playerHtml)
                 cursor.execute(
                     "INSERT INTO players(playerID, name, position, team, age) VALUES (?, ?, ?, ?, ?)"

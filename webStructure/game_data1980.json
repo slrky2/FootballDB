@@ -1,0 +1,1022 @@
+{
+    "autoUpdate": {
+        "mode": "fastcast"
+    },
+    "baseURL": "https://www.espn.com",
+    "broadcasts": [],
+    "compUID": "s:20~l:28~e:401192711~c:401192711",
+    "gmStrp": {
+        "uid": "s:20~l:28~e:401192711",
+        "gid": "401192711",
+        "dt": "1980-09-15T04:00Z",
+        "isTdy": false,
+        "nm": "football",
+        "seasonType": 2,
+        "status": {
+            "desc": "Final",
+            "det": "Final",
+            "id": "3",
+            "state": "post",
+            "statusPrimary": "Final"
+        },
+        "statusState": "post",
+        "tbd": true,
+        "tms": [
+            {
+                "id": "10",
+                "abbrev": "TEN",
+                "displayName": "Houston Oilers",
+                "shortDisplayName": "Oilers",
+                "logo": "https://a.espncdn.com/guid/0a0aea59-9a5e-01b3-57a3-0151cf4bf393/logos/default.png",
+                "teamColor": "2F95DD",
+                "altColor": "001532",
+                "uid": "s:20~l:28~t:10",
+                "guid": "0a0aea59-9a5e-01b3-57a3-0151cf4bf393",
+                "recordSummary": "",
+                "standingSummary": "",
+                "logoDk": "https://a.espncdn.com/guid/0a0aea59-9a5e-01b3-57a3-0151cf4bf393/logos/default-dark.png",
+                "nickname": "Oilers",
+                "location": "Houston",
+                "links": "/nfl/team/_/name/ten/tennessee-titans",
+                "logoLt": "https://a.espncdn.com/guid/0a0aea59-9a5e-01b3-57a3-0151cf4bf393/logos/default.png",
+                "records": [
+                    {
+                        "type": "total",
+                        "summary": "11-5",
+                        "displayValue": "11-5"
+                    },
+                    {
+                        "type": "road",
+                        "summary": "0-0",
+                        "displayValue": "0-0"
+                    }
+                ],
+                "recordTotal": "11-5",
+                "recordSupplemental": "0-0 Away",
+                "isHome": false,
+                "gmStrpClrV4": "#2f95dd",
+                "score": "0",
+                "acsblClr": "#2f95dd",
+                "ltMdAcsblClr": "#2f95dd",
+                "dkMdAcsblClr": "#f4f4f4",
+                "logoMd": "https://a.espncdn.com/combiner/i?img=/guid/0a0aea59-9a5e-01b3-57a3-0151cf4bf393/logos/default.png&cquality=80&h=64&w=64"
+            },
+            {
+                "id": "5",
+                "abbrev": "CLE",
+                "displayName": "Cleveland Browns",
+                "shortDisplayName": "Browns",
+                "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+                "teamColor": "4C230E",
+                "altColor": "ff3c00",
+                "uid": "s:20~l:28~t:5",
+                "guid": "539babc5-e5fb-753b-8ae1-c15032a91ef4",
+                "recordSummary": "",
+                "standingSummary": "",
+                "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cle.png",
+                "nickname": "Browns",
+                "location": "Cleveland",
+                "links": "/nfl/team/_/name/cle/cleveland-browns",
+                "logoLt": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+                "records": [
+                    {
+                        "type": "total",
+                        "summary": "11-5",
+                        "displayValue": "11-5"
+                    },
+                    {
+                        "type": "home",
+                        "summary": "0-0",
+                        "displayValue": "0-0"
+                    }
+                ],
+                "recordTotal": "11-5",
+                "recordSupplemental": "0-0 Home",
+                "isHome": true,
+                "gmStrpClrV4": "#4c230e",
+                "score": "0",
+                "acsblClr": "#4c230e",
+                "ltMdAcsblClr": "#4c230e",
+                "dkMdAcsblClr": "#ff3c00",
+                "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/scoreboard/cle.png&cquality=80&h=64&w=64"
+            }
+        ],
+        "lgId": "28",
+        "config": {
+            "maxPeriods": 4
+        },
+        "hasLinescores": false,
+        "isTie": true
+    },
+    "gmSwtchrMta": {
+        "firstPillOverride": {
+            "statusState": "post",
+            "date": "1980-09-15T04:00Z",
+            "timeValid": false,
+            "primaryText": "Final",
+            "id": 401192711,
+            "link": "/nfl/game/_/gameId/401192711/titans-browns",
+            "leftSide": {
+                "score": 0,
+                "uid": "s:20~l:28~t:10",
+                "isWinner": false,
+                "homeAway": "away",
+                "hasPossession": false,
+                "logoSrcLight": "https://a.espncdn.com/combiner/i?img=/guid/0a0aea59-9a5e-01b3-57a3-0151cf4bf393/logos/default.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+                "logoSrcDark": "https://a.espncdn.com/combiner/i?img=/guid/0a0aea59-9a5e-01b3-57a3-0151cf4bf393/logos/default-dark.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+                "logoAlt": "Houston Oilers"
+            },
+            "rightSide": {
+                "score": 0,
+                "uid": "s:20~l:28~t:5",
+                "isWinner": false,
+                "homeAway": "home",
+                "hasPossession": false,
+                "logoSrcLight": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/cle.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+                "logoSrcDark": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500-dark/cle.png&w=80&h=80&scale=crop&cquality=40&location=origin",
+                "logoAlt": "Cleveland Browns"
+            },
+            "selectedMatchupCharacter": "@",
+            "ariaLabel": "Houston Oilers @ Cleveland Browns",
+            "isTie": true
+        },
+        "gameSwitcherExpected": true,
+        "topic": "picker-football-nfl"
+    },
+    "gpLinks": {
+        "links": [
+            {
+                "l": {
+                    "h": "/nfl/game/_/gameId/401192711/titans-browns",
+                    "e": false,
+                    "p": false,
+                    "m": {
+                        "h": "/nfl/game/_/gameId/401192711/titans-browns",
+                        "e": false,
+                        "p": false,
+                        "t": "Gamecast",
+                        "icon": null,
+                        "iconAlt": null
+                    },
+                    "t": "Gamecast",
+                    "w": {
+                        "h": "/nfl/game/_/gameId/401192711/titans-browns",
+                        "e": false,
+                        "p": false,
+                        "t": "Gamecast",
+                        "icon": null,
+                        "iconAlt": null
+                    }
+                },
+                "d": {
+                    "data-track-nav_layer": "secondary nav",
+                    "data-track-nav_item": "gamecast",
+                    "className": "Nav__Secondary__Menu__Link clr-gray-01 flex items-center ph3"
+                }
+            },
+            {
+                "l": {
+                    "h": "/nfl/boxscore/_/gameId/401192711",
+                    "e": false,
+                    "p": false,
+                    "m": {
+                        "h": "/nfl/boxscore/_/gameId/401192711",
+                        "e": false,
+                        "p": false,
+                        "t": "Box Score",
+                        "icon": null,
+                        "iconAlt": null
+                    },
+                    "t": "Box Score",
+                    "w": {
+                        "h": "/nfl/boxscore/_/gameId/401192711",
+                        "e": false,
+                        "p": false,
+                        "t": "Box Score",
+                        "icon": null,
+                        "iconAlt": null
+                    }
+                },
+                "d": {
+                    "data-track-nav_layer": "secondary nav",
+                    "data-track-nav_item": "box score",
+                    "className": "Nav__Secondary__Menu__Link clr-gray-01 flex items-center ph3"
+                }
+            },
+            {
+                "l": {
+                    "h": "/nfl/playbyplay/_/gameId/401192711",
+                    "e": false,
+                    "p": false,
+                    "m": {
+                        "h": "/nfl/playbyplay/_/gameId/401192711",
+                        "e": false,
+                        "p": false,
+                        "t": "Play-by-Play",
+                        "icon": null,
+                        "iconAlt": null
+                    },
+                    "t": "Play-by-Play",
+                    "w": {
+                        "h": "/nfl/playbyplay/_/gameId/401192711",
+                        "e": false,
+                        "p": false,
+                        "t": "Play-by-Play",
+                        "icon": null,
+                        "iconAlt": null
+                    }
+                },
+                "d": {
+                    "data-track-nav_layer": "secondary nav",
+                    "data-track-nav_item": "play-by-play",
+                    "className": "Nav__Secondary__Menu__Link clr-gray-01 flex items-center ph3"
+                }
+            },
+            {
+                "l": {
+                    "h": "/nfl/matchup/_/gameId/401192711",
+                    "e": false,
+                    "p": false,
+                    "m": {
+                        "h": "/nfl/matchup/_/gameId/401192711",
+                        "e": false,
+                        "p": false,
+                        "t": "Team Stats",
+                        "icon": null,
+                        "iconAlt": null
+                    },
+                    "t": "Team Stats",
+                    "w": {
+                        "h": "/nfl/matchup/_/gameId/401192711",
+                        "e": false,
+                        "p": false,
+                        "t": "Team Stats",
+                        "icon": null,
+                        "iconAlt": null
+                    }
+                },
+                "d": {
+                    "data-track-nav_layer": "secondary nav",
+                    "data-track-nav_item": "team stats",
+                    "className": "Nav__Secondary__Menu__Link clr-gray-01 flex items-center ph3"
+                }
+            }
+        ],
+        "activePage": {
+            "device": "desktop",
+            "league": "nfl",
+            "pageType": null,
+            "subPageType": "boxscore"
+        }
+    },
+    "lg": "nfl",
+    "lgUid": "s:20~l:28",
+    "maxPeriods": 4,
+    "wllClck": {},
+    "network": "",
+    "prsdTms": {
+        "home": {
+            "id": "5",
+            "abbrev": "CLE",
+            "displayName": "Cleveland Browns",
+            "shortDisplayName": "Browns",
+            "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "teamColor": "4C230E",
+            "altColor": "ff3c00",
+            "uid": "s:20~l:28~t:5",
+            "guid": "539babc5-e5fb-753b-8ae1-c15032a91ef4",
+            "recordSummary": "",
+            "standingSummary": "",
+            "logoDk": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/cle.png",
+            "nickname": "Browns",
+            "location": "Cleveland",
+            "links": "/nfl/team/_/name/cle/cleveland-browns",
+            "logoLt": "https://a.espncdn.com/i/teamlogos/nfl/500/scoreboard/cle.png",
+            "records": [
+                {
+                    "type": "total",
+                    "summary": "11-5",
+                    "displayValue": "11-5"
+                },
+                {
+                    "type": "home",
+                    "summary": "0-0",
+                    "displayValue": "0-0"
+                }
+            ],
+            "recordTotal": "11-5",
+            "recordSupplemental": "0-0 Home",
+            "isHome": true,
+            "gmStrpClrV4": "#4c230e",
+            "score": "0",
+            "acsblClr": "#4c230e",
+            "ltMdAcsblClr": "#4c230e",
+            "dkMdAcsblClr": "#ff3c00",
+            "logoMd": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/scoreboard/cle.png&cquality=80&h=64&w=64"
+        },
+        "away": {
+            "id": "10",
+            "abbrev": "TEN",
+            "displayName": "Houston Oilers",
+            "shortDisplayName": "Oilers",
+            "logo": "https://a.espncdn.com/guid/0a0aea59-9a5e-01b3-57a3-0151cf4bf393/logos/default.png",
+            "teamColor": "2F95DD",
+            "altColor": "001532",
+            "uid": "s:20~l:28~t:10",
+            "guid": "0a0aea59-9a5e-01b3-57a3-0151cf4bf393",
+            "recordSummary": "",
+            "standingSummary": "",
+            "logoDk": "https://a.espncdn.com/guid/0a0aea59-9a5e-01b3-57a3-0151cf4bf393/logos/default-dark.png",
+            "nickname": "Oilers",
+            "location": "Houston",
+            "links": "/nfl/team/_/name/ten/tennessee-titans",
+            "logoLt": "https://a.espncdn.com/guid/0a0aea59-9a5e-01b3-57a3-0151cf4bf393/logos/default.png",
+            "records": [
+                {
+                    "type": "total",
+                    "summary": "11-5",
+                    "displayValue": "11-5"
+                },
+                {
+                    "type": "road",
+                    "summary": "0-0",
+                    "displayValue": "0-0"
+                }
+            ],
+            "recordTotal": "11-5",
+            "recordSupplemental": "0-0 Away",
+            "isHome": false,
+            "gmStrpClrV4": "#2f95dd",
+            "score": "0",
+            "acsblClr": "#2f95dd",
+            "ltMdAcsblClr": "#2f95dd",
+            "dkMdAcsblClr": "#f4f4f4",
+            "logoMd": "https://a.espncdn.com/combiner/i?img=/guid/0a0aea59-9a5e-01b3-57a3-0151cf4bf393/logos/default.png&cquality=80&h=64&w=64"
+        }
+    },
+    "shop": null,
+    "ssnSrs": [],
+    "stndngs": [
+        {
+            "shrtDspNm": "2026 Standings",
+            "dspNm": "2026 AFC North Standings",
+            "cnfrncDspNm": "American Football Conference",
+            "dvsnDspNm": "AFC North",
+            "feed": [
+                {
+                    "entries": [
+                        {
+                            "team": {
+                                "id": "4",
+                                "displayName": "Cincinnati",
+                                "shortDisplayName": "Cincinnati",
+                                "uid": "s:20~l:28~t:4",
+                                "recordSummary": "",
+                                "standingSummary": "",
+                                "links": "/nfl/team/_/name/cin/cincinnati-bengals"
+                            },
+                            "stats": [
+                                "2",
+                                "193",
+                                "278",
+                                "0",
+                                ".778",
+                                "7",
+                                "7-2"
+                            ]
+                        },
+                        {
+                            "team": {
+                                "id": "23",
+                                "displayName": "Pittsburgh",
+                                "shortDisplayName": "Pittsburgh",
+                                "uid": "s:20~l:28~t:23",
+                                "recordSummary": "",
+                                "standingSummary": "",
+                                "links": "/nfl/team/_/name/pit/pittsburgh-steelers"
+                            },
+                            "stats": [
+                                "3",
+                                "182",
+                                "198",
+                                "0",
+                                ".667",
+                                "6",
+                                "6-3"
+                            ]
+                        },
+                        {
+                            "team": {
+                                "id": "5",
+                                "displayName": "Cleveland",
+                                "shortDisplayName": "Cleveland",
+                                "uid": "s:20~l:28~t:5",
+                                "recordSummary": "",
+                                "standingSummary": "",
+                                "links": "/nfl/team/_/name/cle/cleveland-browns"
+                            },
+                            "stats": [
+                                "4",
+                                "220",
+                                "188",
+                                "0",
+                                ".600",
+                                "6",
+                                "6-4"
+                            ]
+                        },
+                        {
+                            "team": {
+                                "id": "33",
+                                "displayName": "Baltimore",
+                                "shortDisplayName": "Baltimore",
+                                "uid": "s:20~l:28~t:33",
+                                "recordSummary": "",
+                                "standingSummary": "",
+                                "links": "/nfl/team/_/name/bal/baltimore-ravens"
+                            },
+                            "stats": [
+                                "6",
+                                "259",
+                                "209",
+                                "0",
+                                ".400",
+                                "4",
+                                "4-6"
+                            ]
+                        }
+                    ],
+                    "statMap": {
+                        "losses": {
+                            "t": "losses",
+                            "d": "Losses",
+                            "a": "L",
+                            "i": 0
+                        },
+                        "pointsagainst": {
+                            "t": "pointsagainst",
+                            "d": "Total Points Against",
+                            "a": "PA",
+                            "i": 1
+                        },
+                        "pointsfor": {
+                            "t": "pointsfor",
+                            "d": "Total Points For",
+                            "a": "PF",
+                            "i": 2
+                        },
+                        "ties": {
+                            "t": "ties",
+                            "d": "Ties",
+                            "a": "T",
+                            "i": 3
+                        },
+                        "winpercent": {
+                            "t": "winpercent",
+                            "d": "Winning Percentage",
+                            "a": "PCT",
+                            "i": 4
+                        },
+                        "wins": {
+                            "t": "wins",
+                            "d": "Wins",
+                            "a": "W",
+                            "i": 5
+                        },
+                        "total": {
+                            "t": "total",
+                            "a": "Any",
+                            "i": 6
+                        }
+                    }
+                }
+            ],
+            "tmFeat": [
+                "5",
+                "10"
+            ],
+            "isSameCnfrnc": true,
+            "lnk": "/nfl/standings",
+            "lnkTxt": "Full Standings",
+            "lgUid": "s:20~l:28"
+        }
+    ],
+    "inCntStrp": false,
+    "gmInfo": {
+        "attnd": 0,
+        "broadcasts": [],
+        "cvrg": "",
+        "gameState": "post",
+        "dtTmVld": false,
+        "dtTm": "1980-09-15T04:00Z",
+        "refs": [],
+        "weatherLink": "https://www.accuweather.com/?partner=espn_gc"
+    },
+    "hdrLnks": {
+        "summary": {
+            "href": "/nfl/game/_/gameId/401192711/titans-browns"
+        },
+        "boxscore": {
+            "href": "/nfl/boxscore/_/gameId/401192711"
+        },
+        "pbp": {
+            "href": "/nfl/playbyplay/_/gameId/401192711"
+        },
+        "teamstats": {
+            "href": "/nfl/matchup/_/gameId/401192711"
+        }
+    },
+    "links": [
+        {
+            "rel": [
+                "summary",
+                "desktop",
+                "event"
+            ],
+            "href": "https://www.espn.com/nfl/game/_/gameId/401192711/titans-browns",
+            "text": "Gamecast",
+            "shortText": "Summary",
+            "isExternal": false,
+            "isPremium": false
+        },
+        {
+            "rel": [
+                "boxscore",
+                "desktop",
+                "event"
+            ],
+            "href": "https://www.espn.com/nfl/boxscore/_/gameId/401192711",
+            "text": "Box Score",
+            "shortText": "Box Score",
+            "isExternal": false,
+            "isPremium": false
+        },
+        {
+            "rel": [
+                "pbp",
+                "desktop",
+                "event"
+            ],
+            "href": "https://www.espn.com/nfl/playbyplay/_/gameId/401192711",
+            "text": "Play-by-Play",
+            "shortText": "Play-by-Play",
+            "isExternal": false,
+            "isPremium": false
+        },
+        {
+            "rel": [
+                "teamstats",
+                "desktop",
+                "event"
+            ],
+            "href": "https://www.espn.com/nfl/matchup?gameId=401192711",
+            "text": "Team Stats",
+            "shortText": "Team Stats",
+            "isExternal": false,
+            "isPremium": false
+        }
+    ],
+    "showSwitcher": true,
+    "isCurSzn": false,
+    "news": {
+        "header": "NFL News",
+        "articles": [
+            {
+                "id": 50531854,
+                "headline": "'A walking atrocity!' Stephen A. can't even laugh about Cowboys' defense",
+                "byLine": "",
+                "description": "'A walking atrocity!' Stephen A. can't even laugh about Cowboys' defense",
+                "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1119/ss_20261119_111641572_3749458/ss_20261119_111641572_3749458.jpg",
+                "premium": false,
+                "published": "2026-11-19T16:21:01Z",
+                "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+                "images": [
+                    {
+                        "src": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1119/ss_20261119_111641572_3749458/ss_20261119_111641572_3749458.jpg",
+                        "alt": "'A walking atrocity!' Stephen A. can't even laugh about Cowboys' defense"
+                    }
+                ],
+                "link": "/video/clip/_/id/50531854/a-walking-atrocity-stephen-even-laugh-cowboys-defense"
+            },
+            {
+                "id": 50531780,
+                "headline": "'Protect yourself': Stephen A. implores Skattebo to end backflips",
+                "byLine": "",
+                "description": "'Protect yourself': Stephen A. implores Skattebo to end backflips",
+                "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1119/ss_20261119_110644367_3749449673/ss_20261119_110644367_3749449673.jpg",
+                "premium": false,
+                "published": "2026-11-19T16:14:49Z",
+                "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+                "images": [
+                    {
+                        "src": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1119/ss_20261119_110644367_3749449673/ss_20261119_110644367_3749449673.jpg",
+                        "alt": "'Protect yourself': Stephen A. implores Skattebo to end backflips"
+                    }
+                ],
+                "link": "/video/clip/_/id/50531780/stephen-implores-skattebo-end-backflips"
+            },
+            {
+                "id": 50531709,
+                "headline": "Does Jordyn Tyson's emergence hurt Chris Olave's fantasy value?",
+                "byLine": "",
+                "description": "Does Jordyn Tyson's emergence hurt Chris Olave's fantasy value?",
+                "image": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1119/ss_20261119_104421643_3749432/ss_20261119_104421643_3749432.jpg",
+                "premium": false,
+                "published": "2026-11-19T16:18:02Z",
+                "logoSrc": "https://a.espncdn.com/redesign/assets/img/logos/espnplus/espnplus-2x.png",
+                "images": [
+                    {
+                        "src": "https://espnmedia-cdn.akamaized.net/espn/media/common/2026/1119/ss_20261119_104421643_3749432/ss_20261119_104421643_3749432.jpg",
+                        "alt": "Does Jordyn Tyson's emergence hurt Chris Olave's fantasy value?"
+                    }
+                ],
+                "link": "/video/clip/_/id/50531709/does-jordyn-tyson-emergence-hurt-chris-olave-fantasy-value"
+            }
+        ],
+        "leagueUid": "s:20~l:28",
+        "link": "/nfl/",
+        "text": "All NFL News"
+    },
+    "medialst": {
+        "vids": [],
+        "cmpttn": {
+            "awy": "TEN",
+            "hme": "CLE",
+            "ntrlSte": false
+        }
+    },
+    "showAllStateFieldGoalLogo": true,
+    "enableFieldGoalCutaway": false,
+    "sbpg": "boxscore",
+    "meta": {
+        "stndngs": {
+            "headers": [
+                [
+                    {
+                        "type": "team"
+                    },
+                    {
+                        "type": "wins"
+                    },
+                    {
+                        "type": "losses"
+                    },
+                    {
+                        "type": "ties"
+                    },
+                    {
+                        "type": "winpercent"
+                    },
+                    {
+                        "type": "pointsfor"
+                    },
+                    {
+                        "type": "pointsagainst"
+                    }
+                ]
+            ],
+            "config": {
+                "isHeaderStatic": true
+            }
+        },
+        "gmHilghts": {
+            "lnk": "/nfl/video/_/gameId/401192711"
+        },
+        "gmLdrs": {
+            "athleteRowDirection": {
+                "0": "inline",
+                "1": "reverse"
+            },
+            "hideAthleteDescription": true,
+            "lnk": "/nfl/boxscore/_/gameId/401192711",
+            "lnkAttrs": {}
+        },
+        "bxscr": {
+            "grps": [
+                {
+                    "type": "passing",
+                    "primaryKeys": [
+                        "completions/passingAttempts",
+                        "passingYards",
+                        "yardsPerPassAttempt",
+                        "passingTouchdowns",
+                        "interceptions",
+                        "sacks-sackYardsLost",
+                        "adjQBR",
+                        "QBRating"
+                    ],
+                    "overviewKeys": [
+                        "completions/passingAttempts",
+                        "passingYards",
+                        "passingTouchdowns",
+                        "interceptions",
+                        "sacks-sackYardsLost"
+                    ]
+                },
+                {
+                    "type": "rushing",
+                    "primaryKeys": [
+                        "rushingAttempts",
+                        "rushingYards",
+                        "yardsPerRushAttempt",
+                        "rushingTouchdowns",
+                        "longRushing"
+                    ],
+                    "overviewKeys": [
+                        "rushingAttempts",
+                        "rushingYards",
+                        "rushingTouchdowns",
+                        "longRushing"
+                    ]
+                },
+                {
+                    "type": "receiving",
+                    "primaryKeys": [
+                        "receptions",
+                        "receivingYards",
+                        "yardsPerReception",
+                        "receivingTouchdowns",
+                        "longReception",
+                        "receivingTargets"
+                    ],
+                    "overviewKeys": [
+                        "receptions",
+                        "receivingYards",
+                        "receivingTouchdowns",
+                        "longReception",
+                        "receivingTargets"
+                    ]
+                },
+                {
+                    "type": "fumbles",
+                    "primaryKeys": [
+                        "fumbles",
+                        "fumblesLost",
+                        "fumblesRecovered"
+                    ],
+                    "overviewKeys": [
+                        "fumbles",
+                        "fumblesLost",
+                        "fumblesRecovered"
+                    ]
+                },
+                {
+                    "colGrps": [
+                        1,
+                        4,
+                        3
+                    ],
+                    "hdrs": [
+                        "",
+                        "TACKLES",
+                        "MISC"
+                    ],
+                    "type": "defensive",
+                    "primaryKeys": [
+                        "totalTackles",
+                        "soloTackles",
+                        "sacks",
+                        "tacklesForLoss",
+                        "passesDefended",
+                        "QBHits",
+                        "defensiveTouchdowns"
+                    ],
+                    "overviewKeys": [
+                        "totalTackles",
+                        "soloTackles",
+                        "sacks",
+                        "tacklesForLoss"
+                    ]
+                },
+                {
+                    "type": "interceptions",
+                    "primaryKeys": [
+                        "interceptions",
+                        "interceptionYards",
+                        "interceptionTouchdowns"
+                    ],
+                    "overviewKeys": [
+                        "interceptions",
+                        "interceptionYards",
+                        "interceptionTouchdowns"
+                    ]
+                },
+                {
+                    "type": "kickReturns",
+                    "primaryKeys": [
+                        "kickReturns",
+                        "kickReturnYards",
+                        "yardsPerKickReturn",
+                        "longKickReturn",
+                        "kickReturnTouchdowns"
+                    ],
+                    "overviewKeys": [
+                        "kickReturns",
+                        "kickReturnYards",
+                        "longKickReturn",
+                        "kickReturnTouchdowns"
+                    ]
+                },
+                {
+                    "type": "puntReturns",
+                    "primaryKeys": [
+                        "puntReturns",
+                        "puntReturnYards",
+                        "yardsPerPuntReturn",
+                        "longPuntReturn",
+                        "puntReturnTouchdowns"
+                    ],
+                    "overviewKeys": [
+                        "puntReturns",
+                        "puntReturnYards",
+                        "longPuntReturn",
+                        "puntReturnTouchdowns"
+                    ]
+                },
+                {
+                    "type": "kicking",
+                    "primaryKeys": [
+                        "fieldGoalsMade/fieldGoalAttempts",
+                        "fieldGoalPct",
+                        "longFieldGoalMade",
+                        "extraPointsMade/extraPointAttempts",
+                        "totalKickingPoints"
+                    ],
+                    "overviewKeys": [
+                        "fieldGoalsMade/fieldGoalAttempts",
+                        "fieldGoalPct",
+                        "longFieldGoalMade",
+                        "extraPointsMade/extraPointAttempts",
+                        "totalKickingPoints"
+                    ]
+                },
+                {
+                    "type": "punting",
+                    "primaryKeys": [
+                        "punts",
+                        "puntYards",
+                        "grossAvgPuntYards",
+                        "touchbacks",
+                        "puntsInside20",
+                        "longPunt"
+                    ],
+                    "overviewKeys": [
+                        "punts",
+                        "puntYards",
+                        "touchbacks",
+                        "puntsInside20",
+                        "longPunt"
+                    ]
+                }
+            ]
+        },
+        "gmStry": {
+            "lnk": "/nfl/recap/_/gameId/401192711"
+        },
+        "injrs": {
+            "lnk": "/nfl/injuries"
+        },
+        "medialst": {
+            "lnk": "/nfl/video/_/gameId/401192711"
+        },
+        "scrSumm": {
+            "lnk": "/nfl/playbyplay/_/gameId/401192711"
+        },
+        "tmStats": {
+            "grphHdrs": {
+                "tabs": [
+                    {
+                        "stats": [
+                            {
+                                "key": "totalYards",
+                                "labelOverride": "Total Yards"
+                            },
+                            {
+                                "key": "turnovers",
+                                "labelOverride": "Turnovers"
+                            },
+                            {
+                                "key": "firstDowns",
+                                "labelOverride": "1st Downs"
+                            },
+                            {
+                                "key": "possessionTime",
+                                "labelOverride": "Possession",
+                                "type": "pie"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "grphHdrsV4": {
+                "tabs": [
+                    {
+                        "stats": [
+                            {
+                                "key": "totalYards",
+                                "labelOverride": "Total Yards"
+                            },
+                            {
+                                "key": "turnovers",
+                                "labelOverride": "Turnovers"
+                            },
+                            {
+                                "key": "firstDowns",
+                                "labelOverride": "1st Downs"
+                            },
+                            {
+                                "key": "totalPenaltiesYards",
+                                "labelOverride": "Penalties",
+                                "defaultValue": "0-0",
+                                "rightStat": true
+                            },
+                            {
+                                "key": "thirdDownEff",
+                                "labelOverride": "3rd Down",
+                                "defaultValue": "0-0",
+                                "leftStat": true
+                            },
+                            {
+                                "key": "fourthDownEff",
+                                "labelOverride": "4th Down",
+                                "defaultValue": "0-0",
+                                "leftStat": true
+                            },
+                            {
+                                "key": "redZoneAttempts",
+                                "labelOverride": "Red Zone",
+                                "defaultValue": "0-0",
+                                "leftStat": true
+                            },
+                            {
+                                "key": "possessionTime",
+                                "labelOverride": "Possession",
+                                "time": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            "mtchupTblHdrs": {
+                "firstDowns": "highlight",
+                "firstDownsPassing": "indent",
+                "firstDownsRushing": "indent",
+                "firstDownsPenalty": "indent",
+                "thirdDownEff": "indent",
+                "fourthDownEff": "indent",
+                "totalOffensivePlays": "highlight",
+                "totalYards": "highlight",
+                "totalDrives": "highlight",
+                "yardsPerPlay": "highlight",
+                "netPassingYards": "highlight",
+                "completionAttempts": "indent",
+                "yardsPerPass": "indent",
+                "interceptions": "indent",
+                "sacksYardsLost": "indent",
+                "rushingYards": "highlight",
+                "rushingAttempts": "indent",
+                "yardsPerRushAttempt": "indent",
+                "redZoneAttempts": "highlight",
+                "totalPenaltiesYards": "highlight",
+                "turnovers": "highlight",
+                "fumblesLost": "indent",
+                "interceptions__": "indent",
+                "defensiveTouchdowns": "highlight",
+                "possessionTime": "highlight"
+            },
+            "tblHdrs": {
+                "totalPointsPerGame": "",
+                "totalPointsPerGameAllowed": "",
+                "yardsPerGame": "highlight",
+                "passingYardsPerGame": "indent",
+                "rushingYardsPerGame": "indent",
+                "yardsPerGameAllowed": "highlight",
+                "passingYardsPerGameAllowed": "indent",
+                "rushingYardsPerGameAllowed": "indent"
+            },
+            "lnk": "/nfl/matchup/_/gameId/401192711"
+        },
+        "pbp": {},
+        "drvs": {
+            "hlftmCntdwn": 780
+        },
+        "oddsHdrs": [
+            "line",
+            "open",
+            "pointSpread",
+            "total",
+            "moneyline"
+        ],
+        "oddsOpnCol": [
+            "pointSpread",
+            "total"
+        ],
+        "oddsStrpHdrs": [
+            "pointSpread",
+            "total",
+            "moneyline"
+        ],
+        "oddsLineMrkt": "pointSpread",
+        "compactMarkets": 2
+    }
+}
